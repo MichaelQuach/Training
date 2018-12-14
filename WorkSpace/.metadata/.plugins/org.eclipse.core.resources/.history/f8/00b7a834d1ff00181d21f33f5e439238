@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_vLk7IP_LEei47ZYamBszSA" id="_vLhQwP_LEei47ZYamBszSA" label="WebService" version="0.1" statusCode="" item="_vLk7Iv_LEei47ZYamBszSA" displayName="WebService">
+    <author href="../talend.project#_Ot-PEP_FEei7mKVZ7Y-Jmw"/>
+    <additionalProperties xmi:id="_vM37oP_LEei47ZYamBszSA" key="created_product_fullname" value="Talend Data Fabric"/>
+    <additionalProperties xmi:id="_vM37of_LEei47ZYamBszSA" key="created_product_version" value="7.1.1.20181026_1147"/>
+    <additionalProperties xmi:id="_vM37ov_LEei47ZYamBszSA" key="created_date" value="2018-12-14T13:11:54.586-0500"/>
+    <additionalProperties xmi:id="_vM37o__LEei47ZYamBszSA" key="modified_product_fullname" value="Talend Data Fabric"/>
+    <additionalProperties xmi:id="_vM37pP_LEei47ZYamBszSA" key="modified_product_version" value="7.1.1.20181026_1147"/>
+    <additionalProperties xmi:id="_vM37pf_LEei47ZYamBszSA" key="modified_date" value="2018-12-14T13:40:03.273-0500"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_vLk7If_LEei47ZYamBszSA" path="" locked="true" lockDate="2018-12-14T13:11:55.524-0500">
+    <locker href="../talend.project#_Ot-PEP_FEei7mKVZ7Y-Jmw"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:ProcessItem xmi:id="_vLk7Iv_LEei47ZYamBszSA" property="_vLk7IP_LEei47ZYamBszSA" state="_vLk7If_LEei47ZYamBszSA">
+    <process href="WebService_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

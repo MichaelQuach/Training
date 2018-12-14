@@ -1,0 +1,48 @@
+2018-12-14 00:38:30.885 -0500 org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/designer] org.apache.catalina.core.ApplicationContext log 
+INFO: Spring WebApplicationInitializers detected on classpath: [org.bonitasoft.web.designer.SpringWebApplicationInitializer@7e5ac7fa]
+2018-12-14 00:38:30.995 -0500 org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/designer] org.apache.catalina.core.ApplicationContext log 
+INFO: Initializing Spring root WebApplicationContext
+2018-12-14 00:38:41.438 -0500 org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/designer] org.apache.catalina.core.ApplicationContext log 
+INFO: Initializing Spring FrameworkServlet 'dispatcher'
+2018-12-14 09:55:53.404 -0500 org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/designer] org.apache.catalina.core.ApplicationContext log 
+INFO: Spring WebApplicationInitializers detected on classpath: [org.bonitasoft.web.designer.SpringWebApplicationInitializer@6df065f5]
+2018-12-14 09:55:53.549 -0500 org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/designer] org.apache.catalina.core.ApplicationContext log 
+INFO: Initializing Spring root WebApplicationContext
+2018-12-14 09:56:02.753 -0500 org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/designer] org.apache.catalina.core.ApplicationContext log 
+INFO: Initializing Spring FrameworkServlet 'dispatcher'
+2018-12-14 10:31:44.793 -0500 org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/designer] org.apache.catalina.core.ApplicationContext log 
+INFO: Destroying Spring FrameworkServlet 'dispatcher'
+2018-12-14 10:31:44.811 -0500 org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/designer] org.apache.catalina.core.ApplicationContext log 
+INFO: Closing Spring root WebApplicationContext
+2018-12-14 12:27:54.004 -0500 org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/designer] org.apache.catalina.core.ApplicationContext log 
+INFO: Spring WebApplicationInitializers detected on classpath: [org.bonitasoft.web.designer.SpringWebApplicationInitializer@402eede3]
+2018-12-14 12:27:54.100 -0500 org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/designer] org.apache.catalina.core.ApplicationContext log 
+INFO: Initializing Spring root WebApplicationContext
+2018-12-14 12:28:07.944 -0500 org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/designer] org.apache.catalina.core.ApplicationContext log 
+INFO: Initializing Spring FrameworkServlet 'dispatcher'
+2018-12-14 12:37:10.609 -0500 org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/designer] org.apache.catalina.core.ApplicationContext log 
+INFO: Destroying Spring FrameworkServlet 'dispatcher'
+2018-12-14 12:37:10.630 -0500 org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/designer] org.apache.catalina.core.ApplicationContext log 
+INFO: Closing Spring root WebApplicationContext
+2018-12-14 12:44:27.949 -0500 org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/designer] org.apache.catalina.core.ApplicationContext log 
+INFO: Spring WebApplicationInitializers detected on classpath: [org.bonitasoft.web.designer.SpringWebApplicationInitializer@781c3450]
+2018-12-14 12:44:28.021 -0500 org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/designer] org.apache.catalina.core.ApplicationContext log 
+INFO: Initializing Spring root WebApplicationContext
+2018-12-14 12:44:35.769 -0500 org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/designer] org.apache.catalina.core.ApplicationContext log 
+INFO: Initializing Spring FrameworkServlet 'dispatcher'
+2018-12-14 14:58:18.566 -0500 org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/designer] org.apache.catalina.core.ApplicationContext log 
+INFO: Destroying Spring FrameworkServlet 'dispatcher'
+2018-12-14 14:58:18.685 -0500 org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/designer] org.apache.catalina.core.ApplicationContext log 
+INFO: Closing Spring root WebApplicationContext
+2018-12-14 15:03:54.963 -0500 org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/designer] org.apache.catalina.core.ApplicationContext log 
+INFO: Spring WebApplicationInitializers detected on classpath: [org.bonitasoft.web.designer.SpringWebApplicationInitializer@6b7ba520]
+2018-12-14 15:03:55.059 -0500 org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/designer] org.apache.catalina.core.ApplicationContext log 
+INFO: Initializing Spring root WebApplicationContext
+2018-12-14 15:04:00.539 -0500 org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/designer] org.apache.catalina.core.ApplicationContext log 
+INFO: Initializing Spring FrameworkServlet 'dispatcher'
+2018-12-14 16:37:30.944 -0500 org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/designer] org.apache.catalina.core.ApplicationContext log 
+INFO: Spring WebApplicationInitializers detected on classpath: [org.bonitasoft.web.designer.SpringWebApplicationInitializer@7c200322]
+2018-12-14 16:37:31.028 -0500 org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/designer] org.apache.catalina.core.ApplicationContext log 
+INFO: Initializing Spring root WebApplicationContext
+2018-12-14 16:37:38.742 -0500 org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/designer] org.apache.catalina.core.ApplicationContext log 
+INFO: Initializing Spring FrameworkServlet 'dispatcher'

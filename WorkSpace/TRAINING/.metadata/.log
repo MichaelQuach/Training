@@ -1,0 +1,56 @@
+!SESSION 2018-12-14 12:23:55.651 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\\Users\\michael.quach\\Documents\\WorkSpace\\TRAINING
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-14 12:23:58.062
+!MESSAGE 2018-12-14 12:23:58,062 INFO  org.talend.platform.logging.Activator  - 
+!!------------------------------------------------------------------------!!
+!!                                                                        !!
+!!                                 TALEND                                 !!
+!!   Starting Talend's platform log system.VERSION= 7.1.1.20181026_1147   !!
+!!                                                                        !!
+!!------------------------------------------------------------------------!!
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-14 12:24:03.932
+!MESSAGE 2018-12-14 12:24:03,932 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 4 0 2018-12-14 12:24:07.022
+!MESSAGE 2018-12-14 12:24:07,022 ERROR org.talend.commons.exception.CommonExceptionHandler  - Connection to http://localhost:8081 refused
+
+!STACK 0
+org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8081 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:190)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:294)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:643)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:784)
+	at org.talend.librariesmanager.nexus.Nexus3RepositoryHandler.doConnectionCheck(Nexus3RepositoryHandler.java:95)
+	at org.talend.librariesmanager.nexus.Nexus3RepositoryHandler.checkConnection(Nexus3RepositoryHandler.java:76)
+	at org.talend.core.nexus.TalendLibsServerManager.getSoftwareUpdateNexusServer(TalendLibsServerManager.java:204)
+	at org.talend.core.tis.updatesite.NexusUpdateSiteManager.getUpdateSitesToBeInstall(NexusUpdateSiteManager.java:128)
+	at org.talend.core.tis.service.CoreTisService.needUpdate(CoreTisService.java:431)
+	at org.talend.repository.ui.login.LoginHelper.isStudioNeedUpdate(LoginHelper.java:387)
+	at org.talend.repository.ui.login.LoginProjectPage$21.run(LoginProjectPage.java:1531)
+	at org.talend.repository.ui.login.LoginProjectPage$21.run(LoginProjectPage.java:1)
+	at org.talend.repository.ui.dialog.OverTimePopupDialogTask$1.call(OverTimePopupDialogTask.java:76)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:127)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	... 17 more

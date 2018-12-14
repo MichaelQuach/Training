@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_OHriMP9kEeiYwe3JzTVfnw" id="_Gl06UP9kEeiYwe3JzTVfnw" label="AdventureWorks2016" version="0.1" statusCode="" item="_OHriMv9kEeiYwe3JzTVfnw" displayName="AdventureWorks2016">
+    <author href="../../talend.project#_DY7dUP9gEeijNPvMZf-Oig"/>
+    <additionalProperties xmi:id="_OIFx4P9kEeiYwe3JzTVfnw" key="created_product_fullname" value="Talend Data Fabric"/>
+    <additionalProperties xmi:id="_OIFx4f9kEeiYwe3JzTVfnw" key="created_product_version" value="7.1.1.20181026_1147"/>
+    <additionalProperties xmi:id="_OIFx4v9kEeiYwe3JzTVfnw" key="created_date" value="2018-12-14T00:50:54.462-0500"/>
+    <additionalProperties xmi:id="_OIFx4_9kEeiYwe3JzTVfnw" key="modified_product_fullname" value="Talend Data Fabric"/>
+    <additionalProperties xmi:id="_OIFx5P9kEeiYwe3JzTVfnw" key="modified_product_version" value="7.1.1.20181026_1147"/>
+    <additionalProperties xmi:id="_OIFx5f9kEeiYwe3JzTVfnw" key="modified_date" value="2018-12-14T00:55:49.874-0500"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_OHriMf9kEeiYwe3JzTVfnw" path=""/>
+  <TalendProperties:DatabaseConnectionItem xmi:id="_OHriMv9kEeiYwe3JzTVfnw" property="_OHriMP9kEeiYwe3JzTVfnw" state="_OHriMf9kEeiYwe3JzTVfnw" typeName="Microsoft SQL Server">
+    <connection href="AdventureWorks2016_0.1.item#_OHq7IP9kEeiYwe3JzTVfnw"/>
+  </TalendProperties:DatabaseConnectionItem>
+</xmi:XMI>

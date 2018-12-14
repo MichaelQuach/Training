@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_wD6Ml_9jEeiYwe3JzTVfnw" id="_wDgj8P9jEeiYwe3JzTVfnw" label="MSSQL" version="0.1" statusCode="" item="_wD6Mmf9jEeiYwe3JzTVfnw" displayName="MSSQL">
+    <author href="../talend.project#_DY7dUP9gEeijNPvMZf-Oig"/>
+    <additionalProperties xmi:id="_wFmOoP9jEeiYwe3JzTVfnw" key="created_product_fullname" value="Talend Data Fabric"/>
+    <additionalProperties xmi:id="_wFmOof9jEeiYwe3JzTVfnw" key="created_product_version" value="7.1.1.20181026_1147"/>
+    <additionalProperties xmi:id="_wFmOov9jEeiYwe3JzTVfnw" key="created_date" value="2018-12-14T00:47:32.873-0500"/>
+    <additionalProperties xmi:id="_wFmOo_9jEeiYwe3JzTVfnw" key="modified_product_fullname" value="Talend Data Fabric"/>
+    <additionalProperties xmi:id="_wFmOpP9jEeiYwe3JzTVfnw" key="modified_product_version" value="7.1.1.20181026_1147"/>
+    <additionalProperties xmi:id="_wFmOpf9jEeiYwe3JzTVfnw" key="modified_date" value="2018-12-14T00:49:27.269-0500"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_wD6MmP9jEeiYwe3JzTVfnw" path="" locked="true" lockDate="2018-12-14T00:49:27.269-0500">
+    <locker href="../talend.project#_DY7dUP9gEeijNPvMZf-Oig"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:ContextItem xmi:id="_wD6Mmf9jEeiYwe3JzTVfnw" property="_wD6Ml_9jEeiYwe3JzTVfnw" state="_wD6MmP9jEeiYwe3JzTVfnw" defaultContext="Default">
+    <context href="MSSQL_0.1.item#_wD5lgP9jEeiYwe3JzTVfnw"/>
+  </TalendProperties:ContextItem>
+</xmi:XMI>

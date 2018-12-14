@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_u0_ZYP_GEei7mKVZ7Y-Jmw" id="_u09kMP_GEei7mKVZ7Y-Jmw" label="Remote" version="0.1" statusCode="" item="_u1AAcf_GEei7mKVZ7Y-Jmw" displayName="Remote">
+    <author href="../talend.project#_Ot-PEP_FEei7mKVZ7Y-Jmw"/>
+    <additionalProperties xmi:id="_u1ZCAP_GEei7mKVZ7Y-Jmw" key="created_product_fullname" value="Talend Data Fabric"/>
+    <additionalProperties xmi:id="_u1ZCAf_GEei7mKVZ7Y-Jmw" key="created_product_version" value="7.1.1.20181026_1147"/>
+    <additionalProperties xmi:id="_u1ZCAv_GEei7mKVZ7Y-Jmw" key="created_date" value="2018-12-14T12:36:04.640-0500"/>
+    <additionalProperties xmi:id="_u1ZCA__GEei7mKVZ7Y-Jmw" key="modified_product_fullname" value="Talend Data Fabric"/>
+    <additionalProperties xmi:id="_u1ZCBP_GEei7mKVZ7Y-Jmw" key="modified_product_version" value="7.1.1.20181026_1147"/>
+    <additionalProperties xmi:id="_u1ZCBf_GEei7mKVZ7Y-Jmw" key="modified_date" value="2018-12-14T12:36:04.857-0500"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_u1AAcP_GEei7mKVZ7Y-Jmw" path=""/>
+  <TalendProperties:ProcessItem xmi:id="_u1AAcf_GEei7mKVZ7Y-Jmw" property="_u0_ZYP_GEei7mKVZ7Y-Jmw" state="_u1AAcP_GEei7mKVZ7Y-Jmw">
+    <process href="Remote_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

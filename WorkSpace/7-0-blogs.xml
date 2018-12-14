@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<rss version="2.0">
+  <channel>
+    <pubDate>2018-12-06</pubDate>
+    <author>Bonitasoft</author>
+    <category>News</category>
+    <title>Bonitasoft latest news</title>
+    <link>https://www.bonitasoft.com/news</link>
+    <description>Latest news from Bonitasoft</description>
+
+    <item>
+       <pubDate>2018-12-04</pubDate>
+       <author>Mickey Farrance</author>
+       <category>News</category>
+       <title>Bonitasoft sponsors Agile Grenoble</title>
+       <link>http://org.eclipse.ui.intro/runAction?pluginId=org.bonitasoft.studio.intro&amp;class=org.bonitasoft.studio.intro.actions.OpenInExternalBrowserIntroAction&amp;url=https://www.bonitasoft.com/news/bonitasoft-sponsors-agile-grenoble</link>
+       <description></description>
+    </item>
+    <item>
+       <pubDate>2018-11-20</pubDate>
+       <author>Mickey Farrance</author>
+       <category>News</category>
+       <title>BPM and RPA - technology &amp; strategy</title>
+       <link>http://org.eclipse.ui.intro/runAction?pluginId=org.bonitasoft.studio.intro&amp;class=org.bonitasoft.studio.intro.actions.OpenInExternalBrowserIntroAction&amp;url=https://www.bonitasoft.com/news/bpm-rpa-technology-strategy</link>
+       <description></description>
+    </item>
+    <item>
+       <pubDate>2018-11-13</pubDate>
+       <author>Mickey Farrance</author>
+       <category>News</category>
+       <title>The 24 best BPM platforms for 2019</title>
+       <link>http://org.eclipse.ui.intro/runAction?pluginId=org.bonitasoft.studio.intro&amp;class=org.bonitasoft.studio.intro.actions.OpenInExternalBrowserIntroAction&amp;url=https://solutionsreview.com/business-process-management/the-24-best-business-process-management-platforms-for-2019/</link>
+       <description></description>
+    </item>
+    <item>
+       <pubDate>2018-11-09</pubDate>
+       <author>Mickey Farrance</author>
+       <category>News</category>
+       <title>Bonitasoft certified as a Great Place to Work</title>
+       <link>http://org.eclipse.ui.intro/runAction?pluginId=org.bonitasoft.studio.intro&amp;class=org.bonitasoft.studio.intro.actions.OpenInExternalBrowserIntroAction&amp;url=https://www.bonitasoft.com/news/bonitasoft-great-place-work</link>
+       <description></description>
+    </item>
+    <item>
+       <pubDate>2018-11-05</pubDate>
+       <author>Mickey Farrance</author>
+       <category>News</category>
+       <title>Process Application Platforms 2018: Bonitasoft</title>
+       <link>http://org.eclipse.ui.intro/runAction?pluginId=org.bonitasoft.studio.intro&amp;class=org.bonitasoft.studio.intro.actions.OpenInExternalBrowserIntroAction&amp;url=https://www.bonitasoft.com/news/process-application-platforms-2018-bonitasoft</link>
+       <description></description>
+    </item>
+    <item>
+       <pubDate>2018-10-30</pubDate>
+       <author>Mickey Farrance</author>
+       <category>News</category>
+       <title>We have a Bonitasoft Youtube channel!</title>
+       <link>http://org.eclipse.ui.intro/runAction?pluginId=org.bonitasoft.studio.intro&amp;class=org.bonitasoft.studio.intro.actions.OpenInExternalBrowserIntroAction&amp;url=https://www.bonitasoft.com/news/we-have-bonitasoft-youtube-channel</link>
+       <description></description>
+    </item>
+</channel>
+</rss>

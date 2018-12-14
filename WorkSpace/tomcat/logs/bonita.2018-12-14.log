@@ -1,0 +1,1124 @@
+2018-12-14 00:36:10.092 -0500 org.bonitasoft.tomcat.H2Listener org.bonitasoft.tomcat.H2Listener lifecycleEvent 
+INFO: Starting H2 server : [-tcp, -tcpPort, 19091, -baseDir, C:\Users\michael.quach\Documents\WorkSpace\default\bonita_home/engine-server/work/platform]
+2018-12-14 00:37:43.242 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Initializing Bonita Engine...
+2018-12-14 00:37:43.242 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Initializing Spring context...
+2018-12-14 00:37:43.506 -0500 org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext org.springframework.context.support.AbstractApplicationContext prepareRefresh 
+INFO: Refreshing org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@54d262c0: startup date [Fri Dec 14 00:37:43 EST 2018]; root of context hierarchy
+2018-12-14 00:37:44.193 -0500 org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext org.springframework.context.support.AbstractApplicationContext prepareRefresh 
+INFO: Refreshing org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@132feaa9: startup date [Fri Dec 14 00:37:44 EST 2018]; parent: org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@54d262c0
+2018-12-14 00:37:56.285 -0500 org.hibernate.type.TypeFactory org.hibernate.type.TypeFactory$TypeScopeImpl injectSessionFactory 
+WARN: HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@3422ccc5 after already scoped org.hibernate.internal.SessionFactoryImpl@47dd99ba
+2018-12-14 00:38:02.009 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Initializing platform...
+2018-12-14 00:38:02.009 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initPlatform 
+INFO: Creating platform...
+2018-12-14 00:38:02.321 -0500 org.hibernate.engine.jdbc.spi.SqlExceptionHelper org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions 
+WARN: SQL Error: 42102, SQLState: 42S02
+2018-12-14 00:38:02.321 -0500 org.hibernate.engine.jdbc.spi.SqlExceptionHelper org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions 
+ERROR: Table "PLATFORM" not found; SQL statement:
+select splatformi0_.id as id1_41_, splatformi0_.created as created2_41_, splatformi0_.createdBy as createdB3_41_, splatformi0_.initialVersion as initialV4_41_, splatformi0_.previousVersion as previous5_41_, splatformi0_.version as version6_41_, splatformi0_.information as informat7_41_ from platform splatformi0_ limit ? [42102-170]
+2018-12-14 00:38:03.546 -0500 org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext org.springframework.context.support.AbstractApplicationContext prepareRefresh 
+INFO: Refreshing org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@bafb582: startup date [Fri Dec 14 00:38:03 EST 2018]; parent: org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@132feaa9
+2018-12-14 00:38:05.210 -0500 org.bonitasoft.engine.tracking.TimeTracker org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | -----
+Time Tracker 'org.bonitasoft.engine.tracking.TimeTracker':
+  - trackingEnabled: false
+  - flushIntervalInSeconds: 30000
+  - activatedRecords: EXECUTE_CONNECTOR_CALLABLE EXECUTE_CONNECTOR_OUTPUT_OPERATIONS EXECUTE_CONNECTOR_DISCONNECT EXECUTE_CONNECTOR_INCLUDING_POOL_SUBMIT EVALUATE_EXPRESSIONS EXECUTE_CONNECTOR_INPUT_EXPRESSIONS EVALUATE_EXPRESSION EVALUATE_EXPRESSION_INCLUDING_CONTEXT EXECUTE_CONNECTOR_WORK 
+  - flushEventListeners: org.bonitasoft.engine.tracking.memory.MemoryFlushEventListener: 
+active: false
+No DayRecord registered in memory. org.bonitasoft.engine.tracking.csv.CSVFlushEventListener: 
+active: true
+outputFolder: C:\Users\MICHAE~1.QUA\AppData\Local\Temp\
+ 
+  - records.size: 0
+  - last flush occurrence: Wed Dec 31 19:00:00 EST 1969
+
+-----
+2018-12-14 00:38:06.226 -0500 org.bonitasoft.engine.profile.DefaultProfilesUpdater org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Default profiles not up to date, updating them...
+2018-12-14 00:38:06.392 -0500 org.bonitasoft.engine.profile.DefaultProfilesUpdater org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Updated default profiles [ImportStatus [name=User, status=ADDED, errors=[]], ImportStatus [name=Administrator, status=ADDED, errors=[]]]
+2018-12-14 00:38:06.537 -0500 org.bonitasoft.engine.scheduler.impl.BonitaSchedulerFactory org.quartz.impl.StdSchedulerFactory instantiate 
+INFO: Using default implementation for ThreadExecutor
+2018-12-14 00:38:06.595 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport initialize 
+INFO: Using db table-based data access locking (synchronization).
+2018-12-14 00:38:06.600 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreCMT initialize 
+INFO: JobStoreCMT initialized.
+2018-12-14 00:38:06.602 -0500 org.bonitasoft.engine.scheduler.impl.BonitaSchedulerFactory org.quartz.impl.StdSchedulerFactory instantiate 
+INFO: Quartz scheduler 'QuartzScheduler' initialized from an externally provided properties instance.
+2018-12-14 00:38:06.602 -0500 org.bonitasoft.engine.scheduler.impl.BonitaSchedulerFactory org.quartz.impl.StdSchedulerFactory instantiate 
+INFO: Quartz scheduler version: 2.2.1
+2018-12-14 00:38:06.625 -0500 org.bonitasoft.engine.scheduler.impl.SchedulerServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Start scheduler
+2018-12-14 00:38:06.659 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Freed 0 triggers from 'acquired' / 'blocked' state.
+2018-12-14 00:38:06.668 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2018-12-14 00:38:06.671 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Recovery complete.
+2018-12-14 00:38:06.672 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Removed 0 'complete' triggers.
+2018-12-14 00:38:06.672 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Removed 0 stale fired job entries.
+2018-12-14 00:38:06.757 -0500 org.bonitasoft.engine.api.impl.transaction.platform.ActivateTenant org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Starting event handling job with frequency : 0/5 * * * * ?
+2018-12-14 00:38:06.872 -0500 org.bonitasoft.engine.api.impl.transaction.platform.ActivateTenant org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Starting clean invalid sessions job with frequency : 0 0 */2 * * ?
+2018-12-14 00:38:07.034 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Platform initialized successfully.
+2018-12-14 00:38:07.034 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer startPlatform 
+INFO: Starting platform...
+2018-12-14 00:38:07.075 -0500 org.bonitasoft.engine.api.impl.PlatformAPIImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Start service of platform : org.bonitasoft.engine.classloader.ClassLoaderServiceImpl
+2018-12-14 00:38:07.079 -0500 org.bonitasoft.engine.api.impl.PlatformAPIImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Start service of platform : org.bonitasoft.engine.cache.ehcache.PlatformEhCacheCacheService
+2018-12-14 00:38:07.214 -0500 org.bonitasoft.engine.execution.work.RestartFlowNodesHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Restarting flow nodes...
+2018-12-14 00:38:07.225 -0500 org.bonitasoft.engine.execution.work.RestartFlowNodesHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Found 0 flow nodes to restart on tenant 1
+2018-12-14 00:38:07.242 -0500 org.bonitasoft.engine.execution.work.RestartProcessHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Found 0 process to restart on tenant 1
+2018-12-14 00:38:07.248 -0500 org.bonitasoft.engine.execution.work.BPMEventWorksHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Reinitializing message instances in non-stable state to make them reworked by BPMEventHandlingJob
+2018-12-14 00:38:07.256 -0500 org.bonitasoft.engine.execution.work.BPMEventWorksHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | 0 message instances found and reset.
+2018-12-14 00:38:07.256 -0500 org.bonitasoft.engine.execution.work.BPMEventWorksHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Reinitializing waiting message events in non-stable state to make them reworked by BPMEventHandlingJob
+2018-12-14 00:38:07.260 -0500 org.bonitasoft.engine.execution.work.BPMEventWorksHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | 0 waiting message events found and reset.
+2018-12-14 00:38:07.313 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.command.api.impl.CommandServiceImpl on tenant with ID 1
+2018-12-14 00:38:07.365 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='getBusinessDataByQueryCommand', description='Execute a named query in the BDM, and returns its Json representation. Use parameter keys : "queryName" the name of the query in the bdm, "returnType" the query expected return type, "returnsList" if result is a List or a single value, "queryParameters" a Map to value query parameters', implementation='org.bonitasoft.engine.command.GetBusinessDataByQueryCommand'}
+2018-12-14 00:38:07.376 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='isAllowedToSeeOverviewForm', description='Check if one of many actors can be allowed to read overview form.', implementation='org.bonitasoft.engine.external.permission.IsAllowedToSeeOverviewForm'}
+2018-12-14 00:38:07.388 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='canStartProcessDefinition', description='Return true if the user can start the process, false otherwise. Use parameter key USER_ID_KEY and PROCESS_DEFINITION_ID_KEY', implementation='org.bonitasoft.engine.external.permission.CanStartProcessDefinition'}
+2018-12-14 00:38:07.392 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='isAllowedToStartProcesses', description='Check if the user can be allowed to start all of processes.', implementation='org.bonitasoft.engine.external.permission.IsAllowedToStartProcesses'}
+2018-12-14 00:38:07.398 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='getSupervisor', description='Get process supervisor. Use parameter key SUPERVISOR_ID_KEY', implementation='org.bonitasoft.engine.external.process.GetSupervisor'}
+2018-12-14 00:38:07.407 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='isAllowedToStartProcess', description='Check if one of many actors can be allowed to start process.(who's the process Initiator)', implementation='org.bonitasoft.engine.external.permission.IsAllowedToStartProcess'}
+2018-12-14 00:38:07.413 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='executeBDMQuery', description='Execute a named query in the BDM. Use parameter keys : "queryName" the name of the query in the bdm, "returnType" the query expected return type, "returnsList" if result is a List or a single value, "queryParameters" a Map to value query parameters', implementation='org.bonitasoft.engine.command.ExecuteBDMQueryCommand'}
+2018-12-14 00:38:07.421 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='isUserProcessSupervisor', description='Get if the user a supervisor of processDefinition. Use parameter keys USER_ID_KEY, PROCESS_DEFINITION_ID_KEY', implementation='org.bonitasoft.engine.external.process.IsUserProcessSupervisor'}
+2018-12-14 00:38:07.432 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='isInvolvedInHumanTask', description='Return true if a user is involved in a specific human task, false otherwise. Use parameter key USER_ID_KEY and HUMAN_TASK_INSTANCE_ID_KEY', implementation='org.bonitasoft.engine.external.permission.IsInvolvedInHumanTask'}
+2018-12-14 00:38:07.437 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='searchEntityMembersCommand', description='Searches Entity member mappings: Parameter keys: DISCRIMINATOR_ID_KEY: the discriminator to isolate the different functional notions,
+                SEARCH_OPTIONS_KEY: the Search options to filter and sort the results, MEMBER_TYPE_KEY: Member Type to search for (USER, GROUP, ROLE, or MEMBERSHIP).
+            ', implementation='org.bonitasoft.engine.external.identitymapping.SearchEntityMembersCommand'}
+2018-12-14 00:38:07.445 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='searchProcessSupervisors', description='Search process supervisor for process definition.', implementation='org.bonitasoft.engine.external.process.SearchProcessSupervisors'}
+2018-12-14 00:38:07.450 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='deleteEntityMembersCommand', description='Delete all Entity member mappings associated with provided externalId, for specific Discriminator. Parameter keys: EXTERNAL_ID_KEY: external id
+                provided as is by the external system, DISCRIMINATOR_ID_KEY: the discriminator to isolate the different functional notions.
+            ', implementation='org.bonitasoft.engine.external.identitymapping.DeleteEntityMembersCommand'}
+2018-12-14 00:38:07.459 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='searchArchivedTasksSupervisedBy', description='Returns the list of archived user tasks of process definition supervised by a user. Use parameter keys SUPERVISOR_ID_KEY: id of the supervisor,
+                SEARCH_OPTIONS_KEY: the object containing all the search parameters
+            ', implementation='org.bonitasoft.engine.external.task.supervisor.SearchArchivedTasksSupervisedBy'}
+2018-12-14 00:38:07.467 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='removeEntityMemberCommand', description='Removes a Entity member mapping: ENTITY_MEMBER_ID_KEY: Entity member id to remove', implementation='org.bonitasoft.engine.external.identitymapping.RemoveEntityMemberCommand'}
+2018-12-14 00:38:07.472 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='deleteSessionCommand', description='Deletes a tenant session based on its sessionId', implementation='org.bonitasoft.engine.command.DeleteSessionCommand'}
+2018-12-14 00:38:07.480 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='searchAssignedTasksSupervisedBy', description='Returns the list of assigned user tasks of process definition supervised by a user.', implementation='org.bonitasoft.engine.external.task.supervisor.SearchAssignedTasksSupervisedBy'}
+2018-12-14 00:38:07.491 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='deleteSupervisor', description='Delete process supervisor. Use parameter key SUPERVISOR_ID_KEY', implementation='org.bonitasoft.engine.external.process.DeleteSupervisor'}
+2018-12-14 00:38:07.499 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='searchWaitingEventsCommand', description='Search waiting events. Parameter keys: searchOptions.', implementation='org.bonitasoft.engine.command.system.SearchWaitingEventsCommand'}
+2018-12-14 00:38:07.507 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='advancedStartProcessCommand', description='Advanced start process.', implementation='org.bonitasoft.engine.command.AdvancedStartProcessCommand'}
+2018-12-14 00:38:07.514 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='createSupervisor', description='Create process supervisor.', implementation='org.bonitasoft.engine.external.process.CreateSupervisor'}
+2018-12-14 00:38:07.521 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='addEntityMemberCommand', description='Adds a Entity member to the provided identity notions. Parameter keys: EXTERNAL_ID_KEY: Entity member id provided as is by the external system,
+                userId: -1 is not needed, roleId: -1 is not needed, groupId: -1 is not needed
+            ', implementation='org.bonitasoft.engine.external.identitymapping.AddEntityMemberCommand'}
+2018-12-14 00:38:07.529 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='executeActionsAndTerminate', description='execute actions and terminate a user task instance', implementation='org.bonitasoft.engine.external.web.forms.ExecuteActionsAndTerminateTask'}
+2018-12-14 00:38:07.537 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='getBusinessDataById', description='Get the business data via its identifier and class name, and returns its Json representation.', implementation='org.bonitasoft.engine.command.GetBusinessDataByIdCommand'}
+2018-12-14 00:38:07.541 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='multipleStartPointsProcessCommand', description='Advanced start process using multiple start points.', implementation='org.bonitasoft.engine.command.MultipleStartPointsProcessCommand'}
+2018-12-14 00:38:07.552 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='searchSCommentSupervisedBy', description='Returns the list of comments for processes supervised by a user. One mandatory parameter: supervisorId: ID of the user supervisor of the processes on
+                which comments are.
+            ', implementation='org.bonitasoft.engine.external.comment.SearchCommentsSupervisedBy'}
+2018-12-14 00:38:07.560 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='isAllowedToSeeInstanciationForm', description='Check if one of many actors can be allowed to read Instanciation form.', implementation='org.bonitasoft.engine.external.permission.IsAllowedToSeeInstanciationForm'}
+2018-12-14 00:38:07.569 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='exportDefaultProfilesCommand', description='Export default profiles', implementation='org.bonitasoft.engine.external.web.profile.command.ExportDefaultProfilesCommand'}
+2018-12-14 00:38:07.575 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='searchEntityMembersForUserCommand', description='Searches Entity member mappings: Parameter keys: USER_ID_KEY: the ID of the user to search Entity members for (directly associated, or through role or
+                group), DISCRIMINATOR_ID_KEY: the discriminator to isolate the different functional notions, SEARCH_OPTIONS_KEY: the Search options to filter and sort the
+                results.
+            ', implementation='org.bonitasoft.engine.external.identitymapping.SearchEntityMembersForUserCommand'}
+2018-12-14 00:38:07.583 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='importProfilesCommand', description='Import profiles, profileEntries and profile mappings', implementation='org.bonitasoft.engine.external.web.profile.command.ImportProfilesCommand'}
+2018-12-14 00:38:07.588 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='searchProcessDefinitionsSupervisedBy', description='Searching processeDefinitions whose supervisor is the specified user.', implementation='org.bonitasoft.engine.external.supervisor.SearchProcessDefinitionsSupervisedBy'}
+2018-12-14 00:38:07.597 -0500 org.bonitasoft.engine.command.api.impl.CommandServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Creating missing system command: CommandDeployment{name='getBusinessDataByIds', description='Get the business data via its identifiers and class name, and returns its Json representation.', implementation='org.bonitasoft.engine.command.GetBusinessDataByIdsCommand'}
+2018-12-14 00:38:07.605 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.connector.impl.ConnectorExecutorImpl on tenant with ID 1
+2018-12-14 00:38:07.605 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.work.ExecutorWorkService on tenant with ID 1
+2018-12-14 00:38:07.605 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.tracking.TimeTracker on tenant with ID 1
+2018-12-14 00:38:07.605 -0500 org.bonitasoft.engine.tracking.TimeTracker org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Starting TimeTracker...
+2018-12-14 00:38:07.605 -0500 org.bonitasoft.engine.tracking.TimeTracker org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | TimeTracker started.
+2018-12-14 00:38:07.607 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.theme.impl.ThemeServiceImpl on tenant with ID 1
+2018-12-14 00:38:08.887 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.service.impl.PermissionServiceImpl on tenant with ID 1
+2018-12-14 00:38:08.906 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.page.impl.PageServiceImpl on tenant with ID 1
+2018-12-14 00:38:09.690 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.cache.ehcache.EhCacheCacheService on tenant with ID 1
+2018-12-14 00:38:09.690 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.business.data.impl.JPABusinessDataRepositoryImpl on tenant with ID 1
+2018-12-14 00:38:09.732 -0500 org.bonitasoft.engine.handler.SchedulerServiceRestartHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Rescheduling all scheduler Triggers in ERROR state
+2018-12-14 00:38:09.751 -0500 org.bonitasoft.engine.api.impl.StarterThread org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Restarting elements in the Thread 47
+2018-12-14 00:38:09.753 -0500 org.bonitasoft.engine.api.impl.StarterThread org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=47 | HOSTNAME=LAPTOP-3CL7RSNF | Restarting elements for tenant 1
+2018-12-14 00:38:09.758 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer startPlatform 
+INFO: Platform started successfully
+2018-12-14 00:38:09.758 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Initialization of Bonita Engine done! ( took 26516ms)
+2018-12-14 00:38:09.795 -0500 org.bonitasoft.engine.execution.work.RestartFlowNodesHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=47 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Restarting 0 flow nodes for tenant 1
+2018-12-14 00:38:09.842 -0500 org.bonitasoft.engine.execution.work.RestartProcessHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=47 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Restarting 0 processes for tenant 1
+2018-12-14 00:38:09.875 -0500 org.bonitasoft.engine.profile.DefaultProfilesUpdater org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=47 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Default profiles are up to date
+2018-12-14 00:38:30.887 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 
+2018-12-14 00:38:30.887 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: d8888b.  .d88b.  d8b   db d888888b d888888b  .d8b.    .d8888.  .d88b.  d88888b d888888b
+2018-12-14 00:38:30.887 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 88  `8D .8P  Y8. 888o  88   `88'   `~~88~~' d8' `8b   88'  YP .8P  Y8. 88'     `~~88~~'
+2018-12-14 00:38:30.887 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 88oooY' 88    88 88V8o 88    88       88    88ooo88   `8bo.   88    88 88ooo      88  
+2018-12-14 00:38:30.888 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 88~~~b. 88    88 88 V8o88    88       88    88~~~88     `Y8b. 88    88 88~~~      88  
+2018-12-14 00:38:30.888 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 88   8D `8b  d8' 88  V888   .88.      88    88   88   db   8D `8b  d8' 88         88   
+2018-12-14 00:38:30.888 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: Y8888P'  `Y88P'  VP   V8P Y888888P    YP    YP   YP   `8888Y'  `Y88P'  YP         YP   
+2018-12-14 00:38:30.888 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: ====================================================================================================
+2018-12-14 00:38:30.892 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: UI-DESIGNER : Community edition v.1.2.19
+2018-12-14 00:38:30.892 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: ====================================================================================================
+2018-12-14 00:38:31.663 -0500 org.bonitasoft.web.designer.config.DesignerConfigConditional org.bonitasoft.web.designer.config.DesignerConfigConditional matches 
+INFO: Conf loaded :  Community edition
+2018-12-14 00:38:31.990 -0500 org.bonitasoft.web.designer.config.DesignerConfigConditional org.bonitasoft.web.designer.config.DesignerConfigConditional matches 
+INFO: Conf loaded :  Community edition
+2018-12-14 00:38:32.079 -0500 org.bonitasoft.web.designer.config.DesignerConfigConditional org.bonitasoft.web.designer.config.DesignerConfigConditional matches 
+INFO: Conf loaded :  Community edition
+2018-12-14 00:38:40.730 -0500 org.bonitasoft.web.designer.config.WebMvcConfiguration org.bonitasoft.web.designer.config.WebMvcConfiguration addViewControllers 
+INFO: Adding welcome page: file:/C:/Users/michael.quach/Documents/WorkSpace/tomcat/webapps/designer/WEB-INF/classes/static/index.html
+2018-12-14 00:38:41.948 -0500 org.bonitasoft.console.server.listener.StudioWatchdogListener org.bonitasoft.console.server.listener.StudioWatchdogListener$1 run 
+WARNING: Bonita Studio watchdog process has started on port 6969 with a delay set to 20000 ms
+2018-12-14 09:54:13.767 -0500 org.bonitasoft.tomcat.H2Listener org.bonitasoft.tomcat.H2Listener lifecycleEvent 
+INFO: Starting H2 server : [-tcp, -tcpPort, 19091, -baseDir, C:\Users\michael.quach\Documents\WorkSpace\default\bonita_home/engine-server/work/platform]
+2018-12-14 09:54:45.313 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Initializing Bonita Engine...
+2018-12-14 09:54:45.313 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Initializing Spring context...
+2018-12-14 09:54:45.893 -0500 org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext org.springframework.context.support.AbstractApplicationContext prepareRefresh 
+INFO: Refreshing org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@2a2275a3: startup date [Fri Dec 14 09:54:45 EST 2018]; root of context hierarchy
+2018-12-14 09:54:47.019 -0500 org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext org.springframework.context.support.AbstractApplicationContext prepareRefresh 
+INFO: Refreshing org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@46bbca53: startup date [Fri Dec 14 09:54:47 EST 2018]; parent: org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@2a2275a3
+2018-12-14 09:55:16.145 -0500 org.hibernate.type.TypeFactory org.hibernate.type.TypeFactory$TypeScopeImpl injectSessionFactory 
+WARN: HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6eed3c2b after already scoped org.hibernate.internal.SessionFactoryImpl@51b34674
+2018-12-14 09:55:25.264 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Initializing platform...
+2018-12-14 09:55:25.264 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initPlatform 
+INFO: Creating platform...
+2018-12-14 09:55:25.587 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Platform initialized successfully.
+2018-12-14 09:55:25.587 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer startPlatform 
+INFO: Starting platform...
+2018-12-14 09:55:25.695 -0500 org.bonitasoft.engine.api.impl.PlatformAPIImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Start service of platform : org.bonitasoft.engine.classloader.ClassLoaderServiceImpl
+2018-12-14 09:55:25.697 -0500 org.bonitasoft.engine.api.impl.PlatformAPIImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Start service of platform : org.bonitasoft.engine.cache.ehcache.PlatformEhCacheCacheService
+2018-12-14 09:55:25.848 -0500 org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext org.springframework.context.support.AbstractApplicationContext prepareRefresh 
+INFO: Refreshing org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@777bc3f: startup date [Fri Dec 14 09:55:25 EST 2018]; parent: org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@46bbca53
+2018-12-14 09:55:29.274 -0500 org.bonitasoft.engine.tracking.TimeTracker org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | -----
+Time Tracker 'org.bonitasoft.engine.tracking.TimeTracker':
+  - trackingEnabled: false
+  - flushIntervalInSeconds: 30000
+  - activatedRecords: EVALUATE_EXPRESSION EVALUATE_EXPRESSION_INCLUDING_CONTEXT EXECUTE_CONNECTOR_INPUT_EXPRESSIONS EXECUTE_CONNECTOR_INCLUDING_POOL_SUBMIT EXECUTE_CONNECTOR_WORK EVALUATE_EXPRESSIONS EXECUTE_CONNECTOR_OUTPUT_OPERATIONS EXECUTE_CONNECTOR_DISCONNECT EXECUTE_CONNECTOR_CALLABLE 
+  - flushEventListeners: org.bonitasoft.engine.tracking.memory.MemoryFlushEventListener: 
+active: false
+No DayRecord registered in memory. org.bonitasoft.engine.tracking.csv.CSVFlushEventListener: 
+active: true
+outputFolder: C:\Users\MICHAE~1.QUA\AppData\Local\Temp\
+ 
+  - records.size: 0
+  - last flush occurrence: Wed Dec 31 19:00:00 EST 1969
+
+-----
+2018-12-14 09:55:30.231 -0500 org.bonitasoft.engine.execution.work.RestartFlowNodesHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Restarting flow nodes...
+2018-12-14 09:55:30.260 -0500 org.bonitasoft.engine.execution.work.RestartFlowNodesHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Found 0 flow nodes to restart on tenant 1
+2018-12-14 09:55:30.283 -0500 org.bonitasoft.engine.execution.work.RestartProcessHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Found 0 process to restart on tenant 1
+2018-12-14 09:55:30.283 -0500 org.bonitasoft.engine.execution.work.BPMEventWorksHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Reinitializing message instances in non-stable state to make them reworked by BPMEventHandlingJob
+2018-12-14 09:55:30.298 -0500 org.bonitasoft.engine.execution.work.BPMEventWorksHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | 0 message instances found and reset.
+2018-12-14 09:55:30.300 -0500 org.bonitasoft.engine.execution.work.BPMEventWorksHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Reinitializing waiting message events in non-stable state to make them reworked by BPMEventHandlingJob
+2018-12-14 09:55:30.302 -0500 org.bonitasoft.engine.execution.work.BPMEventWorksHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | 0 waiting message events found and reset.
+2018-12-14 09:55:30.355 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.command.api.impl.CommandServiceImpl on tenant with ID 1
+2018-12-14 09:55:30.413 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.connector.impl.ConnectorExecutorImpl on tenant with ID 1
+2018-12-14 09:55:30.423 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.work.ExecutorWorkService on tenant with ID 1
+2018-12-14 09:55:30.423 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.tracking.TimeTracker on tenant with ID 1
+2018-12-14 09:55:30.423 -0500 org.bonitasoft.engine.tracking.TimeTracker org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Starting TimeTracker...
+2018-12-14 09:55:30.423 -0500 org.bonitasoft.engine.tracking.TimeTracker org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | TimeTracker started.
+2018-12-14 09:55:30.423 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.theme.impl.ThemeServiceImpl on tenant with ID 1
+2018-12-14 09:55:30.758 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.service.impl.PermissionServiceImpl on tenant with ID 1
+2018-12-14 09:55:30.799 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.page.impl.PageServiceImpl on tenant with ID 1
+2018-12-14 09:55:34.878 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.cache.ehcache.EhCacheCacheService on tenant with ID 1
+2018-12-14 09:55:34.880 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.business.data.impl.JPABusinessDataRepositoryImpl on tenant with ID 1
+2018-12-14 09:55:35.135 -0500 org.bonitasoft.engine.scheduler.impl.BonitaSchedulerFactory org.quartz.impl.StdSchedulerFactory instantiate 
+INFO: Using default implementation for ThreadExecutor
+2018-12-14 09:55:35.257 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport initialize 
+INFO: Using db table-based data access locking (synchronization).
+2018-12-14 09:55:35.261 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreCMT initialize 
+INFO: JobStoreCMT initialized.
+2018-12-14 09:55:35.267 -0500 org.bonitasoft.engine.scheduler.impl.BonitaSchedulerFactory org.quartz.impl.StdSchedulerFactory instantiate 
+INFO: Quartz scheduler 'QuartzScheduler' initialized from an externally provided properties instance.
+2018-12-14 09:55:35.278 -0500 org.bonitasoft.engine.scheduler.impl.BonitaSchedulerFactory org.quartz.impl.StdSchedulerFactory instantiate 
+INFO: Quartz scheduler version: 2.2.1
+2018-12-14 09:55:35.332 -0500 org.bonitasoft.engine.scheduler.impl.SchedulerServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Start scheduler
+2018-12-14 09:55:35.370 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Freed 1 triggers from 'acquired' / 'blocked' state.
+2018-12-14 09:55:35.370 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverMisfiredJobs 
+INFO: Handling 2 trigger(s) that missed their scheduled fire-time.
+2018-12-14 09:55:35.440 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2018-12-14 09:55:35.440 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Recovery complete.
+2018-12-14 09:55:35.440 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Removed 0 'complete' triggers.
+2018-12-14 09:55:35.446 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Removed 1 stale fired job entries.
+2018-12-14 09:55:35.471 -0500 org.bonitasoft.engine.handler.SchedulerServiceRestartHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Rescheduling all scheduler Triggers in ERROR state
+2018-12-14 09:55:35.487 -0500 org.bonitasoft.engine.api.impl.StarterThread org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Restarting elements in the Thread 46
+2018-12-14 09:55:35.496 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer startPlatform 
+INFO: Platform started successfully
+2018-12-14 09:55:35.497 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Initialization of Bonita Engine done! ( took 50184ms)
+2018-12-14 09:55:35.547 -0500 org.bonitasoft.engine.api.impl.StarterThread org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=46 | HOSTNAME=LAPTOP-3CL7RSNF | Restarting elements for tenant 1
+2018-12-14 09:55:35.548 -0500 org.bonitasoft.engine.execution.work.RestartFlowNodesHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=46 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Restarting 0 flow nodes for tenant 1
+2018-12-14 09:55:35.555 -0500 org.bonitasoft.engine.execution.work.RestartProcessHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=46 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Restarting 0 processes for tenant 1
+2018-12-14 09:55:35.694 -0500 org.bonitasoft.engine.profile.DefaultProfilesUpdater org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=46 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Default profiles are up to date
+2018-12-14 09:55:53.413 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 
+2018-12-14 09:55:53.413 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: d8888b.  .d88b.  d8b   db d888888b d888888b  .d8b.    .d8888.  .d88b.  d88888b d888888b
+2018-12-14 09:55:53.413 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 88  `8D .8P  Y8. 888o  88   `88'   `~~88~~' d8' `8b   88'  YP .8P  Y8. 88'     `~~88~~'
+2018-12-14 09:55:53.413 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 88oooY' 88    88 88V8o 88    88       88    88ooo88   `8bo.   88    88 88ooo      88  
+2018-12-14 09:55:53.414 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 88~~~b. 88    88 88 V8o88    88       88    88~~~88     `Y8b. 88    88 88~~~      88  
+2018-12-14 09:55:53.414 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 88   8D `8b  d8' 88  V888   .88.      88    88   88   db   8D `8b  d8' 88         88   
+2018-12-14 09:55:53.414 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: Y8888P'  `Y88P'  VP   V8P Y888888P    YP    YP   YP   `8888Y'  `Y88P'  YP         YP   
+2018-12-14 09:55:53.419 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: ====================================================================================================
+2018-12-14 09:55:53.419 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: UI-DESIGNER : Community edition v.1.2.19
+2018-12-14 09:55:53.419 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: ====================================================================================================
+2018-12-14 09:55:54.158 -0500 org.bonitasoft.web.designer.config.DesignerConfigConditional org.bonitasoft.web.designer.config.DesignerConfigConditional matches 
+INFO: Conf loaded :  Community edition
+2018-12-14 09:55:54.397 -0500 org.bonitasoft.web.designer.config.DesignerConfigConditional org.bonitasoft.web.designer.config.DesignerConfigConditional matches 
+INFO: Conf loaded :  Community edition
+2018-12-14 09:55:54.475 -0500 org.bonitasoft.web.designer.config.DesignerConfigConditional org.bonitasoft.web.designer.config.DesignerConfigConditional matches 
+INFO: Conf loaded :  Community edition
+2018-12-14 09:56:01.672 -0500 org.bonitasoft.web.designer.config.WebMvcConfiguration org.bonitasoft.web.designer.config.WebMvcConfiguration addViewControllers 
+INFO: Adding welcome page: file:/C:/Users/michael.quach/Documents/WorkSpace/tomcat/webapps/designer/WEB-INF/classes/static/index.html
+2018-12-14 09:56:03.228 -0500 org.bonitasoft.console.server.listener.StudioWatchdogListener org.bonitasoft.console.server.listener.StudioWatchdogListener$1 run 
+WARNING: Bonita Studio watchdog process has started on port 6969 with a delay set to 20000 ms
+2018-12-14 10:31:44.626 -0500 org.bonitasoft.console.server.listener.StudioWatchdogListener org.bonitasoft.console.server.listener.StudioWatchdogListener$1 run 
+WARNING: Bonita Studio process has been killed, terminating tomcat process properly
+2018-12-14 10:31:44.829 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer unloadEngine 
+INFO: Stopping Bonita Engine...
+2018-12-14 10:31:44.830 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer unloadEngine 
+INFO: Stopping the services...
+2018-12-14 10:31:45.128 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=109 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | stop tenant-level service org.bonitasoft.engine.command.api.impl.CommandServiceImpl on tenant with ID 1
+2018-12-14 10:31:45.128 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=109 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | stop tenant-level service org.bonitasoft.engine.connector.impl.ConnectorExecutorImpl on tenant with ID 1
+2018-12-14 10:31:45.128 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=109 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | stop tenant-level service org.bonitasoft.engine.work.ExecutorWorkService on tenant with ID 1
+2018-12-14 10:31:45.128 -0500 org.bonitasoft.engine.work.BonitaThreadPoolExecutor org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=109 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Clearing queue of work, had 0 elements
+2018-12-14 10:31:45.128 -0500 org.bonitasoft.engine.work.ExecutorWorkService org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=109 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Stopped executor service
+2018-12-14 10:31:45.128 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=109 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | stop tenant-level service org.bonitasoft.engine.tracking.TimeTracker on tenant with ID 1
+2018-12-14 10:31:45.128 -0500 org.bonitasoft.engine.tracking.TimeTracker org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=109 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Stopping TimeTracker...
+2018-12-14 10:31:45.128 -0500 org.bonitasoft.engine.tracking.TimeTracker org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=109 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | TimeTracker stopped.
+2018-12-14 10:31:45.128 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=109 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | stop tenant-level service org.bonitasoft.engine.theme.impl.ThemeServiceImpl on tenant with ID 1
+2018-12-14 10:31:45.128 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=109 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | stop tenant-level service org.bonitasoft.engine.service.impl.PermissionServiceImpl on tenant with ID 1
+2018-12-14 10:31:45.128 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=109 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | stop tenant-level service org.bonitasoft.engine.page.impl.PageServiceImpl on tenant with ID 1
+2018-12-14 10:31:45.128 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=109 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | stop tenant-level service org.bonitasoft.engine.cache.ehcache.EhCacheCacheService on tenant with ID 1
+2018-12-14 10:31:45.128 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=109 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | stop tenant-level service org.bonitasoft.engine.business.data.impl.JPABusinessDataRepositoryImpl on tenant with ID 1
+2018-12-14 10:31:45.128 -0500 org.bonitasoft.engine.api.impl.PlatformAPIImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=109 | HOSTNAME=LAPTOP-3CL7RSNF | Stop service of platform: org.bonitasoft.engine.classloader.ClassLoaderServiceImpl
+2018-12-14 10:31:45.143 -0500 org.bonitasoft.engine.api.impl.PlatformAPIImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=109 | HOSTNAME=LAPTOP-3CL7RSNF | Stop service of platform: org.bonitasoft.engine.cache.ehcache.PlatformEhCacheCacheService
+2018-12-14 10:31:45.143 -0500 org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext org.springframework.context.support.AbstractApplicationContext doClose 
+INFO: Closing org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@777bc3f: startup date [Fri Dec 14 09:55:25 EST 2018]; parent: org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@46bbca53
+2018-12-14 10:31:45.143 -0500 org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext org.springframework.context.support.AbstractApplicationContext doClose 
+INFO: Closing org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@46bbca53: startup date [Fri Dec 14 09:54:47 EST 2018]; parent: org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@2a2275a3
+2018-12-14 10:31:45.143 -0500 org.bonitasoft.engine.persistence.PlatformHibernatePersistenceService org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=109 | HOSTNAME=LAPTOP-3CL7RSNF | Closing Hibernate session factory of org.bonitasoft.engine.persistence.PlatformHibernatePersistenceService
+2018-12-14 10:31:45.143 -0500 org.bonitasoft.engine.persistence.TenantHibernatePersistenceService org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=109 | HOSTNAME=LAPTOP-3CL7RSNF | Closing Hibernate session factory of org.bonitasoft.engine.persistence.TenantHibernatePersistenceService
+2018-12-14 10:31:45.158 -0500 org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext org.springframework.context.support.AbstractApplicationContext doClose 
+INFO: Closing org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@2a2275a3: startup date [Fri Dec 14 09:54:45 EST 2018]; root of context hierarchy
+2018-12-14 10:31:45.158 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer unloadEngine 
+INFO: Bonita Engine stopped!
+2018-12-14 10:31:45.174 -0500 org.bonitasoft.tomcat.H2Listener org.bonitasoft.tomcat.H2Listener lifecycleEvent 
+INFO: Stopping H2 server.
+2018-12-14 12:27:04.545 -0500 org.bonitasoft.tomcat.H2Listener org.bonitasoft.tomcat.H2Listener lifecycleEvent 
+INFO: Starting H2 server : [-tcp, -tcpPort, 19091, -baseDir, C:\Users\michael.quach\Documents\WorkSpace\default\bonita_home/engine-server/work/platform]
+2018-12-14 12:27:19.271 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Initializing Bonita Engine...
+2018-12-14 12:27:19.274 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Initializing Spring context...
+2018-12-14 12:27:19.573 -0500 org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext org.springframework.context.support.AbstractApplicationContext prepareRefresh 
+INFO: Refreshing org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@79306bb4: startup date [Fri Dec 14 12:27:19 EST 2018]; root of context hierarchy
+2018-12-14 12:27:20.278 -0500 org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext org.springframework.context.support.AbstractApplicationContext prepareRefresh 
+INFO: Refreshing org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@186abdcc: startup date [Fri Dec 14 12:27:20 EST 2018]; parent: org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@79306bb4
+2018-12-14 12:27:32.444 -0500 org.hibernate.type.TypeFactory org.hibernate.type.TypeFactory$TypeScopeImpl injectSessionFactory 
+WARN: HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@2cc50e70 after already scoped org.hibernate.internal.SessionFactoryImpl@50608f10
+2018-12-14 12:27:39.114 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Initializing platform...
+2018-12-14 12:27:39.115 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initPlatform 
+INFO: Creating platform...
+2018-12-14 12:27:39.404 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Platform initialized successfully.
+2018-12-14 12:27:39.405 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer startPlatform 
+INFO: Starting platform...
+2018-12-14 12:27:39.457 -0500 org.bonitasoft.engine.api.impl.PlatformAPIImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Start service of platform : org.bonitasoft.engine.classloader.ClassLoaderServiceImpl
+2018-12-14 12:27:39.457 -0500 org.bonitasoft.engine.api.impl.PlatformAPIImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Start service of platform : org.bonitasoft.engine.cache.ehcache.PlatformEhCacheCacheService
+2018-12-14 12:27:39.561 -0500 org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext org.springframework.context.support.AbstractApplicationContext prepareRefresh 
+INFO: Refreshing org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@2d266cb7: startup date [Fri Dec 14 12:27:39 EST 2018]; parent: org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@186abdcc
+2018-12-14 12:27:41.286 -0500 org.bonitasoft.engine.tracking.TimeTracker org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | -----
+Time Tracker 'org.bonitasoft.engine.tracking.TimeTracker':
+  - trackingEnabled: false
+  - flushIntervalInSeconds: 30000
+  - activatedRecords: EXECUTE_CONNECTOR_OUTPUT_OPERATIONS EXECUTE_CONNECTOR_INPUT_EXPRESSIONS EXECUTE_CONNECTOR_WORK EVALUATE_EXPRESSIONS EXECUTE_CONNECTOR_DISCONNECT EVALUATE_EXPRESSION EXECUTE_CONNECTOR_INCLUDING_POOL_SUBMIT EXECUTE_CONNECTOR_CALLABLE EVALUATE_EXPRESSION_INCLUDING_CONTEXT 
+  - flushEventListeners: org.bonitasoft.engine.tracking.memory.MemoryFlushEventListener: 
+active: false
+No DayRecord registered in memory. org.bonitasoft.engine.tracking.csv.CSVFlushEventListener: 
+active: true
+outputFolder: C:\Users\MICHAE~1.QUA\AppData\Local\Temp\
+ 
+  - records.size: 0
+  - last flush occurrence: Wed Dec 31 19:00:00 EST 1969
+
+-----
+2018-12-14 12:27:42.123 -0500 org.bonitasoft.engine.execution.work.RestartFlowNodesHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Restarting flow nodes...
+2018-12-14 12:27:42.140 -0500 org.bonitasoft.engine.execution.work.RestartFlowNodesHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Found 0 flow nodes to restart on tenant 1
+2018-12-14 12:27:42.162 -0500 org.bonitasoft.engine.execution.work.RestartProcessHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Found 0 process to restart on tenant 1
+2018-12-14 12:27:42.171 -0500 org.bonitasoft.engine.execution.work.BPMEventWorksHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Reinitializing message instances in non-stable state to make them reworked by BPMEventHandlingJob
+2018-12-14 12:27:42.182 -0500 org.bonitasoft.engine.execution.work.BPMEventWorksHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | 0 message instances found and reset.
+2018-12-14 12:27:42.183 -0500 org.bonitasoft.engine.execution.work.BPMEventWorksHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Reinitializing waiting message events in non-stable state to make them reworked by BPMEventHandlingJob
+2018-12-14 12:27:42.188 -0500 org.bonitasoft.engine.execution.work.BPMEventWorksHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | 0 waiting message events found and reset.
+2018-12-14 12:27:42.226 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.command.api.impl.CommandServiceImpl on tenant with ID 1
+2018-12-14 12:27:42.301 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.connector.impl.ConnectorExecutorImpl on tenant with ID 1
+2018-12-14 12:27:42.303 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.work.ExecutorWorkService on tenant with ID 1
+2018-12-14 12:27:42.305 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.tracking.TimeTracker on tenant with ID 1
+2018-12-14 12:27:42.306 -0500 org.bonitasoft.engine.tracking.TimeTracker org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Starting TimeTracker...
+2018-12-14 12:27:42.306 -0500 org.bonitasoft.engine.tracking.TimeTracker org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | TimeTracker started.
+2018-12-14 12:27:42.307 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.theme.impl.ThemeServiceImpl on tenant with ID 1
+2018-12-14 12:27:42.588 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.service.impl.PermissionServiceImpl on tenant with ID 1
+2018-12-14 12:27:42.898 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.page.impl.PageServiceImpl on tenant with ID 1
+2018-12-14 12:27:47.093 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.cache.ehcache.EhCacheCacheService on tenant with ID 1
+2018-12-14 12:27:47.095 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.business.data.impl.JPABusinessDataRepositoryImpl on tenant with ID 1
+2018-12-14 12:27:47.234 -0500 org.bonitasoft.engine.scheduler.impl.BonitaSchedulerFactory org.quartz.impl.StdSchedulerFactory instantiate 
+INFO: Using default implementation for ThreadExecutor
+2018-12-14 12:27:47.269 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport initialize 
+INFO: Using db table-based data access locking (synchronization).
+2018-12-14 12:27:47.273 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreCMT initialize 
+INFO: JobStoreCMT initialized.
+2018-12-14 12:27:47.275 -0500 org.bonitasoft.engine.scheduler.impl.BonitaSchedulerFactory org.quartz.impl.StdSchedulerFactory instantiate 
+INFO: Quartz scheduler 'QuartzScheduler' initialized from an externally provided properties instance.
+2018-12-14 12:27:47.275 -0500 org.bonitasoft.engine.scheduler.impl.BonitaSchedulerFactory org.quartz.impl.StdSchedulerFactory instantiate 
+INFO: Quartz scheduler version: 2.2.1
+2018-12-14 12:27:47.285 -0500 org.bonitasoft.engine.scheduler.impl.SchedulerServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Start scheduler
+2018-12-14 12:27:47.304 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Freed 0 triggers from 'acquired' / 'blocked' state.
+2018-12-14 12:27:47.315 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverMisfiredJobs 
+INFO: Handling 2 trigger(s) that missed their scheduled fire-time.
+2018-12-14 12:27:47.372 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2018-12-14 12:27:47.373 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Recovery complete.
+2018-12-14 12:27:47.374 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Removed 0 'complete' triggers.
+2018-12-14 12:27:47.375 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Removed 0 stale fired job entries.
+2018-12-14 12:27:47.379 -0500 org.bonitasoft.engine.handler.SchedulerServiceRestartHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Rescheduling all scheduler Triggers in ERROR state
+2018-12-14 12:27:47.393 -0500 org.bonitasoft.engine.api.impl.StarterThread org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Restarting elements in the Thread 45
+2018-12-14 12:27:47.418 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer startPlatform 
+INFO: Platform started successfully
+2018-12-14 12:27:47.419 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Initialization of Bonita Engine done! ( took 28145ms)
+2018-12-14 12:27:47.427 -0500 org.bonitasoft.engine.api.impl.StarterThread org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=45 | HOSTNAME=LAPTOP-3CL7RSNF | Restarting elements for tenant 1
+2018-12-14 12:27:47.429 -0500 org.bonitasoft.engine.execution.work.RestartFlowNodesHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=45 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Restarting 0 flow nodes for tenant 1
+2018-12-14 12:27:47.442 -0500 org.bonitasoft.engine.execution.work.RestartProcessHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=45 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Restarting 0 processes for tenant 1
+2018-12-14 12:27:47.540 -0500 org.bonitasoft.engine.profile.DefaultProfilesUpdater org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=45 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Default profiles are up to date
+2018-12-14 12:27:54.004 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 
+2018-12-14 12:27:54.005 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: d8888b.  .d88b.  d8b   db d888888b d888888b  .d8b.    .d8888.  .d88b.  d88888b d888888b
+2018-12-14 12:27:54.005 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 88  `8D .8P  Y8. 888o  88   `88'   `~~88~~' d8' `8b   88'  YP .8P  Y8. 88'     `~~88~~'
+2018-12-14 12:27:54.005 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 88oooY' 88    88 88V8o 88    88       88    88ooo88   `8bo.   88    88 88ooo      88  
+2018-12-14 12:27:54.006 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 88~~~b. 88    88 88 V8o88    88       88    88~~~88     `Y8b. 88    88 88~~~      88  
+2018-12-14 12:27:54.007 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 88   8D `8b  d8' 88  V888   .88.      88    88   88   db   8D `8b  d8' 88         88   
+2018-12-14 12:27:54.007 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: Y8888P'  `Y88P'  VP   V8P Y888888P    YP    YP   YP   `8888Y'  `Y88P'  YP         YP   
+2018-12-14 12:27:54.009 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: ====================================================================================================
+2018-12-14 12:27:54.009 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: UI-DESIGNER : Community edition v.1.2.19
+2018-12-14 12:27:54.010 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: ====================================================================================================
+2018-12-14 12:27:55.227 -0500 org.bonitasoft.web.designer.config.DesignerConfigConditional org.bonitasoft.web.designer.config.DesignerConfigConditional matches 
+INFO: Conf loaded :  Community edition
+2018-12-14 12:27:56.424 -0500 org.bonitasoft.web.designer.config.DesignerConfigConditional org.bonitasoft.web.designer.config.DesignerConfigConditional matches 
+INFO: Conf loaded :  Community edition
+2018-12-14 12:27:56.588 -0500 org.bonitasoft.web.designer.config.DesignerConfigConditional org.bonitasoft.web.designer.config.DesignerConfigConditional matches 
+INFO: Conf loaded :  Community edition
+2018-12-14 12:28:06.907 -0500 org.bonitasoft.web.designer.config.WebMvcConfiguration org.bonitasoft.web.designer.config.WebMvcConfiguration addViewControllers 
+INFO: Adding welcome page: file:/C:/Users/michael.quach/Documents/WorkSpace/tomcat/webapps/designer/WEB-INF/classes/static/index.html
+2018-12-14 12:28:09.403 -0500 org.bonitasoft.console.server.listener.StudioWatchdogListener org.bonitasoft.console.server.listener.StudioWatchdogListener$1 run 
+WARNING: Bonita Studio watchdog process has started on port 6969 with a delay set to 20000 ms
+2018-12-14 12:37:10.490 -0500 org.bonitasoft.console.server.listener.StudioWatchdogListener org.bonitasoft.console.server.listener.StudioWatchdogListener$1 run 
+WARNING: Bonita Studio process has been killed, terminating tomcat process properly
+2018-12-14 12:37:10.649 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer unloadEngine 
+INFO: Stopping Bonita Engine...
+2018-12-14 12:37:10.649 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer unloadEngine 
+INFO: Stopping the services...
+2018-12-14 12:37:11.021 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=81 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | stop tenant-level service org.bonitasoft.engine.command.api.impl.CommandServiceImpl on tenant with ID 1
+2018-12-14 12:37:11.021 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=81 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | stop tenant-level service org.bonitasoft.engine.connector.impl.ConnectorExecutorImpl on tenant with ID 1
+2018-12-14 12:37:11.021 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=81 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | stop tenant-level service org.bonitasoft.engine.work.ExecutorWorkService on tenant with ID 1
+2018-12-14 12:37:11.022 -0500 org.bonitasoft.engine.work.BonitaThreadPoolExecutor org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=81 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Clearing queue of work, had 0 elements
+2018-12-14 12:37:11.022 -0500 org.bonitasoft.engine.work.ExecutorWorkService org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=81 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Stopped executor service
+2018-12-14 12:37:11.022 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=81 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | stop tenant-level service org.bonitasoft.engine.tracking.TimeTracker on tenant with ID 1
+2018-12-14 12:37:11.022 -0500 org.bonitasoft.engine.tracking.TimeTracker org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=81 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Stopping TimeTracker...
+2018-12-14 12:37:11.023 -0500 org.bonitasoft.engine.tracking.TimeTracker org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=81 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | TimeTracker stopped.
+2018-12-14 12:37:11.023 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=81 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | stop tenant-level service org.bonitasoft.engine.theme.impl.ThemeServiceImpl on tenant with ID 1
+2018-12-14 12:37:11.023 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=81 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | stop tenant-level service org.bonitasoft.engine.service.impl.PermissionServiceImpl on tenant with ID 1
+2018-12-14 12:37:11.023 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=81 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | stop tenant-level service org.bonitasoft.engine.page.impl.PageServiceImpl on tenant with ID 1
+2018-12-14 12:37:11.023 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=81 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | stop tenant-level service org.bonitasoft.engine.cache.ehcache.EhCacheCacheService on tenant with ID 1
+2018-12-14 12:37:11.026 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=81 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | stop tenant-level service org.bonitasoft.engine.business.data.impl.JPABusinessDataRepositoryImpl on tenant with ID 1
+2018-12-14 12:37:11.026 -0500 org.bonitasoft.engine.api.impl.PlatformAPIImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=81 | HOSTNAME=LAPTOP-3CL7RSNF | Stop service of platform: org.bonitasoft.engine.classloader.ClassLoaderServiceImpl
+2018-12-14 12:37:11.032 -0500 org.bonitasoft.engine.api.impl.PlatformAPIImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=81 | HOSTNAME=LAPTOP-3CL7RSNF | Stop service of platform: org.bonitasoft.engine.cache.ehcache.PlatformEhCacheCacheService
+2018-12-14 12:37:11.033 -0500 org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext org.springframework.context.support.AbstractApplicationContext doClose 
+INFO: Closing org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@2d266cb7: startup date [Fri Dec 14 12:27:39 EST 2018]; parent: org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@186abdcc
+2018-12-14 12:37:11.039 -0500 org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext org.springframework.context.support.AbstractApplicationContext doClose 
+INFO: Closing org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@186abdcc: startup date [Fri Dec 14 12:27:20 EST 2018]; parent: org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@79306bb4
+2018-12-14 12:37:11.041 -0500 org.bonitasoft.engine.persistence.PlatformHibernatePersistenceService org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=81 | HOSTNAME=LAPTOP-3CL7RSNF | Closing Hibernate session factory of org.bonitasoft.engine.persistence.PlatformHibernatePersistenceService
+2018-12-14 12:37:11.043 -0500 org.bonitasoft.engine.persistence.TenantHibernatePersistenceService org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=81 | HOSTNAME=LAPTOP-3CL7RSNF | Closing Hibernate session factory of org.bonitasoft.engine.persistence.TenantHibernatePersistenceService
+2018-12-14 12:37:11.044 -0500 org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext org.springframework.context.support.AbstractApplicationContext doClose 
+INFO: Closing org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@79306bb4: startup date [Fri Dec 14 12:27:19 EST 2018]; root of context hierarchy
+2018-12-14 12:37:11.045 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer unloadEngine 
+INFO: Bonita Engine stopped!
+2018-12-14 12:37:11.065 -0500 org.bonitasoft.tomcat.H2Listener org.bonitasoft.tomcat.H2Listener lifecycleEvent 
+INFO: Stopping H2 server.
+2018-12-14 12:43:46.321 -0500 org.bonitasoft.tomcat.H2Listener org.bonitasoft.tomcat.H2Listener lifecycleEvent 
+INFO: Starting H2 server : [-tcp, -tcpPort, 19091, -baseDir, C:\Users\michael.quach\Documents\WorkSpace\default\bonita_home/engine-server/work/platform]
+2018-12-14 12:44:05.972 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Initializing Bonita Engine...
+2018-12-14 12:44:05.972 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Initializing Spring context...
+2018-12-14 12:44:06.365 -0500 org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext org.springframework.context.support.AbstractApplicationContext prepareRefresh 
+INFO: Refreshing org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@6e8ee3b9: startup date [Fri Dec 14 12:44:06 EST 2018]; root of context hierarchy
+2018-12-14 12:44:07.261 -0500 org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext org.springframework.context.support.AbstractApplicationContext prepareRefresh 
+INFO: Refreshing org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@69043bb0: startup date [Fri Dec 14 12:44:07 EST 2018]; parent: org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@6e8ee3b9
+2018-12-14 12:44:15.711 -0500 org.hibernate.type.TypeFactory org.hibernate.type.TypeFactory$TypeScopeImpl injectSessionFactory 
+WARN: HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@71717d70 after already scoped org.hibernate.internal.SessionFactoryImpl@5dae063b
+2018-12-14 12:44:20.136 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Initializing platform...
+2018-12-14 12:44:20.136 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initPlatform 
+INFO: Creating platform...
+2018-12-14 12:44:20.408 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Platform initialized successfully.
+2018-12-14 12:44:20.416 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer startPlatform 
+INFO: Starting platform...
+2018-12-14 12:44:20.519 -0500 org.bonitasoft.engine.api.impl.PlatformAPIImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Start service of platform : org.bonitasoft.engine.classloader.ClassLoaderServiceImpl
+2018-12-14 12:44:20.519 -0500 org.bonitasoft.engine.api.impl.PlatformAPIImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Start service of platform : org.bonitasoft.engine.cache.ehcache.PlatformEhCacheCacheService
+2018-12-14 12:44:20.610 -0500 org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext org.springframework.context.support.AbstractApplicationContext prepareRefresh 
+INFO: Refreshing org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@6c7019d0: startup date [Fri Dec 14 12:44:20 EST 2018]; parent: org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@69043bb0
+2018-12-14 12:44:23.621 -0500 org.bonitasoft.engine.tracking.TimeTracker org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | -----
+Time Tracker 'org.bonitasoft.engine.tracking.TimeTracker':
+  - trackingEnabled: false
+  - flushIntervalInSeconds: 30000
+  - activatedRecords: EXECUTE_CONNECTOR_INPUT_EXPRESSIONS EVALUATE_EXPRESSION_INCLUDING_CONTEXT EXECUTE_CONNECTOR_CALLABLE EVALUATE_EXPRESSIONS EXECUTE_CONNECTOR_OUTPUT_OPERATIONS EXECUTE_CONNECTOR_WORK EXECUTE_CONNECTOR_INCLUDING_POOL_SUBMIT EXECUTE_CONNECTOR_DISCONNECT EVALUATE_EXPRESSION 
+  - flushEventListeners: org.bonitasoft.engine.tracking.memory.MemoryFlushEventListener: 
+active: false
+No DayRecord registered in memory. org.bonitasoft.engine.tracking.csv.CSVFlushEventListener: 
+active: true
+outputFolder: C:\Users\MICHAE~1.QUA\AppData\Local\Temp\
+ 
+  - records.size: 0
+  - last flush occurrence: Wed Dec 31 19:00:00 EST 1969
+
+-----
+2018-12-14 12:44:24.542 -0500 org.bonitasoft.engine.execution.work.RestartFlowNodesHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Restarting flow nodes...
+2018-12-14 12:44:24.562 -0500 org.bonitasoft.engine.execution.work.RestartFlowNodesHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Found 0 flow nodes to restart on tenant 1
+2018-12-14 12:44:24.582 -0500 org.bonitasoft.engine.execution.work.RestartProcessHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Found 0 process to restart on tenant 1
+2018-12-14 12:44:24.587 -0500 org.bonitasoft.engine.execution.work.BPMEventWorksHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Reinitializing message instances in non-stable state to make them reworked by BPMEventHandlingJob
+2018-12-14 12:44:24.597 -0500 org.bonitasoft.engine.execution.work.BPMEventWorksHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | 0 message instances found and reset.
+2018-12-14 12:44:24.598 -0500 org.bonitasoft.engine.execution.work.BPMEventWorksHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Reinitializing waiting message events in non-stable state to make them reworked by BPMEventHandlingJob
+2018-12-14 12:44:24.602 -0500 org.bonitasoft.engine.execution.work.BPMEventWorksHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | 0 waiting message events found and reset.
+2018-12-14 12:44:24.638 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.command.api.impl.CommandServiceImpl on tenant with ID 1
+2018-12-14 12:44:24.684 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.connector.impl.ConnectorExecutorImpl on tenant with ID 1
+2018-12-14 12:44:24.686 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.work.ExecutorWorkService on tenant with ID 1
+2018-12-14 12:44:24.688 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.tracking.TimeTracker on tenant with ID 1
+2018-12-14 12:44:24.688 -0500 org.bonitasoft.engine.tracking.TimeTracker org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Starting TimeTracker...
+2018-12-14 12:44:24.688 -0500 org.bonitasoft.engine.tracking.TimeTracker org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | TimeTracker started.
+2018-12-14 12:44:24.689 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.theme.impl.ThemeServiceImpl on tenant with ID 1
+2018-12-14 12:44:24.851 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.service.impl.PermissionServiceImpl on tenant with ID 1
+2018-12-14 12:44:24.863 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.page.impl.PageServiceImpl on tenant with ID 1
+2018-12-14 12:44:25.901 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.cache.ehcache.EhCacheCacheService on tenant with ID 1
+2018-12-14 12:44:25.901 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.business.data.impl.JPABusinessDataRepositoryImpl on tenant with ID 1
+2018-12-14 12:44:26.006 -0500 org.bonitasoft.engine.scheduler.impl.BonitaSchedulerFactory org.quartz.impl.StdSchedulerFactory instantiate 
+INFO: Using default implementation for ThreadExecutor
+2018-12-14 12:44:26.034 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport initialize 
+INFO: Using db table-based data access locking (synchronization).
+2018-12-14 12:44:26.038 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreCMT initialize 
+INFO: JobStoreCMT initialized.
+2018-12-14 12:44:26.040 -0500 org.bonitasoft.engine.scheduler.impl.BonitaSchedulerFactory org.quartz.impl.StdSchedulerFactory instantiate 
+INFO: Quartz scheduler 'QuartzScheduler' initialized from an externally provided properties instance.
+2018-12-14 12:44:26.041 -0500 org.bonitasoft.engine.scheduler.impl.BonitaSchedulerFactory org.quartz.impl.StdSchedulerFactory instantiate 
+INFO: Quartz scheduler version: 2.2.1
+2018-12-14 12:44:26.051 -0500 org.bonitasoft.engine.scheduler.impl.SchedulerServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Start scheduler
+2018-12-14 12:44:26.068 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Freed 0 triggers from 'acquired' / 'blocked' state.
+2018-12-14 12:44:26.070 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverMisfiredJobs 
+INFO: Handling 1 trigger(s) that missed their scheduled fire-time.
+2018-12-14 12:44:26.100 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2018-12-14 12:44:26.100 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Recovery complete.
+2018-12-14 12:44:26.101 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Removed 0 'complete' triggers.
+2018-12-14 12:44:26.102 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Removed 0 stale fired job entries.
+2018-12-14 12:44:26.107 -0500 org.bonitasoft.engine.handler.SchedulerServiceRestartHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Rescheduling all scheduler Triggers in ERROR state
+2018-12-14 12:44:26.120 -0500 org.bonitasoft.engine.api.impl.StarterThread org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Restarting elements in the Thread 45
+2018-12-14 12:44:26.125 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer startPlatform 
+INFO: Platform started successfully
+2018-12-14 12:44:26.126 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Initialization of Bonita Engine done! ( took 20154ms)
+2018-12-14 12:44:26.147 -0500 org.bonitasoft.engine.api.impl.StarterThread org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=45 | HOSTNAME=LAPTOP-3CL7RSNF | Restarting elements for tenant 1
+2018-12-14 12:44:26.148 -0500 org.bonitasoft.engine.execution.work.RestartFlowNodesHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=45 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Restarting 0 flow nodes for tenant 1
+2018-12-14 12:44:26.153 -0500 org.bonitasoft.engine.execution.work.RestartProcessHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=45 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Restarting 0 processes for tenant 1
+2018-12-14 12:44:26.177 -0500 org.bonitasoft.engine.profile.DefaultProfilesUpdater org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=45 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Default profiles are up to date
+2018-12-14 12:44:27.950 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 
+2018-12-14 12:44:27.950 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: d8888b.  .d88b.  d8b   db d888888b d888888b  .d8b.    .d8888.  .d88b.  d88888b d888888b
+2018-12-14 12:44:27.950 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 88  `8D .8P  Y8. 888o  88   `88'   `~~88~~' d8' `8b   88'  YP .8P  Y8. 88'     `~~88~~'
+2018-12-14 12:44:27.950 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 88oooY' 88    88 88V8o 88    88       88    88ooo88   `8bo.   88    88 88ooo      88  
+2018-12-14 12:44:27.950 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 88~~~b. 88    88 88 V8o88    88       88    88~~~88     `Y8b. 88    88 88~~~      88  
+2018-12-14 12:44:27.950 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 88   8D `8b  d8' 88  V888   .88.      88    88   88   db   8D `8b  d8' 88         88   
+2018-12-14 12:44:27.951 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: Y8888P'  `Y88P'  VP   V8P Y888888P    YP    YP   YP   `8888Y'  `Y88P'  YP         YP   
+2018-12-14 12:44:27.952 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: ====================================================================================================
+2018-12-14 12:44:27.953 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: UI-DESIGNER : Community edition v.1.2.19
+2018-12-14 12:44:27.953 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: ====================================================================================================
+2018-12-14 12:44:28.335 -0500 org.bonitasoft.web.designer.config.DesignerConfigConditional org.bonitasoft.web.designer.config.DesignerConfigConditional matches 
+INFO: Conf loaded :  Community edition
+2018-12-14 12:44:28.545 -0500 org.bonitasoft.web.designer.config.DesignerConfigConditional org.bonitasoft.web.designer.config.DesignerConfigConditional matches 
+INFO: Conf loaded :  Community edition
+2018-12-14 12:44:28.598 -0500 org.bonitasoft.web.designer.config.DesignerConfigConditional org.bonitasoft.web.designer.config.DesignerConfigConditional matches 
+INFO: Conf loaded :  Community edition
+2018-12-14 12:44:34.905 -0500 org.bonitasoft.web.designer.config.WebMvcConfiguration org.bonitasoft.web.designer.config.WebMvcConfiguration addViewControllers 
+INFO: Adding welcome page: file:/C:/Users/michael.quach/Documents/WorkSpace/tomcat/webapps/designer/WEB-INF/classes/static/index.html
+2018-12-14 12:44:36.047 -0500 org.bonitasoft.console.server.listener.StudioWatchdogListener org.bonitasoft.console.server.listener.StudioWatchdogListener$1 run 
+WARNING: Bonita Studio watchdog process has started on port 6969 with a delay set to 20000 ms
+2018-12-14 14:58:18.396 -0500 org.bonitasoft.console.server.listener.StudioWatchdogListener org.bonitasoft.console.server.listener.StudioWatchdogListener$1 run 
+WARNING: Bonita Studio process has been killed, terminating tomcat process properly
+2018-12-14 14:58:18.870 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer unloadEngine 
+INFO: Stopping Bonita Engine...
+2018-12-14 14:58:18.871 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer unloadEngine 
+INFO: Stopping the services...
+2018-12-14 14:58:19.515 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=208 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | stop tenant-level service org.bonitasoft.engine.command.api.impl.CommandServiceImpl on tenant with ID 1
+2018-12-14 14:58:19.516 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=208 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | stop tenant-level service org.bonitasoft.engine.connector.impl.ConnectorExecutorImpl on tenant with ID 1
+2018-12-14 14:58:19.517 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=208 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | stop tenant-level service org.bonitasoft.engine.work.ExecutorWorkService on tenant with ID 1
+2018-12-14 14:58:19.519 -0500 org.bonitasoft.engine.work.BonitaThreadPoolExecutor org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=208 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Clearing queue of work, had 0 elements
+2018-12-14 14:58:19.519 -0500 org.bonitasoft.engine.work.ExecutorWorkService org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=208 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Stopped executor service
+2018-12-14 14:58:19.519 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=208 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | stop tenant-level service org.bonitasoft.engine.tracking.TimeTracker on tenant with ID 1
+2018-12-14 14:58:19.520 -0500 org.bonitasoft.engine.tracking.TimeTracker org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=208 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Stopping TimeTracker...
+2018-12-14 14:58:19.520 -0500 org.bonitasoft.engine.tracking.TimeTracker org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=208 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | TimeTracker stopped.
+2018-12-14 14:58:19.520 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=208 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | stop tenant-level service org.bonitasoft.engine.theme.impl.ThemeServiceImpl on tenant with ID 1
+2018-12-14 14:58:19.520 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=208 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | stop tenant-level service org.bonitasoft.engine.service.impl.PermissionServiceImpl on tenant with ID 1
+2018-12-14 14:58:19.522 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=208 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | stop tenant-level service org.bonitasoft.engine.page.impl.PageServiceImpl on tenant with ID 1
+2018-12-14 14:58:19.522 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=208 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | stop tenant-level service org.bonitasoft.engine.cache.ehcache.EhCacheCacheService on tenant with ID 1
+2018-12-14 14:58:19.525 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=208 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | stop tenant-level service org.bonitasoft.engine.business.data.impl.JPABusinessDataRepositoryImpl on tenant with ID 1
+2018-12-14 14:58:19.526 -0500 org.bonitasoft.engine.api.impl.PlatformAPIImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=208 | HOSTNAME=LAPTOP-3CL7RSNF | Stop service of platform: org.bonitasoft.engine.classloader.ClassLoaderServiceImpl
+2018-12-14 14:58:19.537 -0500 org.bonitasoft.engine.api.impl.PlatformAPIImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=208 | HOSTNAME=LAPTOP-3CL7RSNF | Stop service of platform: org.bonitasoft.engine.cache.ehcache.PlatformEhCacheCacheService
+2018-12-14 14:58:19.539 -0500 org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext org.springframework.context.support.AbstractApplicationContext doClose 
+INFO: Closing org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@6c7019d0: startup date [Fri Dec 14 12:44:20 EST 2018]; parent: org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@69043bb0
+2018-12-14 14:58:19.557 -0500 org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext org.springframework.context.support.AbstractApplicationContext doClose 
+INFO: Closing org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@69043bb0: startup date [Fri Dec 14 12:44:07 EST 2018]; parent: org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@6e8ee3b9
+2018-12-14 14:58:19.562 -0500 org.bonitasoft.engine.persistence.PlatformHibernatePersistenceService org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=208 | HOSTNAME=LAPTOP-3CL7RSNF | Closing Hibernate session factory of org.bonitasoft.engine.persistence.PlatformHibernatePersistenceService
+2018-12-14 14:58:19.588 -0500 org.bonitasoft.engine.persistence.TenantHibernatePersistenceService org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=208 | HOSTNAME=LAPTOP-3CL7RSNF | Closing Hibernate session factory of org.bonitasoft.engine.persistence.TenantHibernatePersistenceService
+2018-12-14 14:58:19.592 -0500 org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext org.springframework.context.support.AbstractApplicationContext doClose 
+INFO: Closing org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@6e8ee3b9: startup date [Fri Dec 14 12:44:06 EST 2018]; root of context hierarchy
+2018-12-14 14:58:19.593 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer unloadEngine 
+INFO: Bonita Engine stopped!
+2018-12-14 14:58:19.639 -0500 org.bonitasoft.tomcat.H2Listener org.bonitasoft.tomcat.H2Listener lifecycleEvent 
+INFO: Stopping H2 server.
+2018-12-14 15:02:45.450 -0500 org.bonitasoft.tomcat.H2Listener org.bonitasoft.tomcat.H2Listener lifecycleEvent 
+INFO: Starting H2 server : [-tcp, -tcpPort, 19091, -baseDir, C:\Users\michael.quach\Documents\WorkSpace\default\bonita_home/engine-server/work/platform]
+2018-12-14 15:03:24.147 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Initializing Bonita Engine...
+2018-12-14 15:03:24.149 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Initializing Spring context...
+2018-12-14 15:03:24.620 -0500 org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext org.springframework.context.support.AbstractApplicationContext prepareRefresh 
+INFO: Refreshing org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@4fc53d67: startup date [Fri Dec 14 15:03:24 EST 2018]; root of context hierarchy
+2018-12-14 15:03:25.166 -0500 org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext org.springframework.context.support.AbstractApplicationContext prepareRefresh 
+INFO: Refreshing org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@3b0481f2: startup date [Fri Dec 14 15:03:25 EST 2018]; parent: org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@4fc53d67
+2018-12-14 15:03:39.344 -0500 org.hibernate.type.TypeFactory org.hibernate.type.TypeFactory$TypeScopeImpl injectSessionFactory 
+WARN: HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@1aa83c37 after already scoped org.hibernate.internal.SessionFactoryImpl@c5708c9
+2018-12-14 15:03:46.842 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Initializing platform...
+2018-12-14 15:03:46.843 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initPlatform 
+INFO: Creating platform...
+2018-12-14 15:03:47.228 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Platform initialized successfully.
+2018-12-14 15:03:47.229 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer startPlatform 
+INFO: Starting platform...
+2018-12-14 15:03:47.271 -0500 org.bonitasoft.engine.api.impl.PlatformAPIImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Start service of platform : org.bonitasoft.engine.classloader.ClassLoaderServiceImpl
+2018-12-14 15:03:47.272 -0500 org.bonitasoft.engine.api.impl.PlatformAPIImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Start service of platform : org.bonitasoft.engine.cache.ehcache.PlatformEhCacheCacheService
+2018-12-14 15:03:47.402 -0500 org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext org.springframework.context.support.AbstractApplicationContext prepareRefresh 
+INFO: Refreshing org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@c015cc5: startup date [Fri Dec 14 15:03:47 EST 2018]; parent: org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@3b0481f2
+2018-12-14 15:03:48.844 -0500 org.bonitasoft.engine.tracking.TimeTracker org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | -----
+Time Tracker 'org.bonitasoft.engine.tracking.TimeTracker':
+  - trackingEnabled: false
+  - flushIntervalInSeconds: 30000
+  - activatedRecords: EXECUTE_CONNECTOR_CALLABLE EXECUTE_CONNECTOR_INPUT_EXPRESSIONS EXECUTE_CONNECTOR_INCLUDING_POOL_SUBMIT EXECUTE_CONNECTOR_OUTPUT_OPERATIONS EXECUTE_CONNECTOR_DISCONNECT EVALUATE_EXPRESSION_INCLUDING_CONTEXT EVALUATE_EXPRESSION EXECUTE_CONNECTOR_WORK EVALUATE_EXPRESSIONS 
+  - flushEventListeners: org.bonitasoft.engine.tracking.memory.MemoryFlushEventListener: 
+active: false
+No DayRecord registered in memory. org.bonitasoft.engine.tracking.csv.CSVFlushEventListener: 
+active: true
+outputFolder: C:\Users\MICHAE~1.QUA\AppData\Local\Temp\
+ 
+  - records.size: 0
+  - last flush occurrence: Wed Dec 31 19:00:00 EST 1969
+
+-----
+2018-12-14 15:03:49.942 -0500 org.bonitasoft.engine.execution.work.RestartFlowNodesHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Restarting flow nodes...
+2018-12-14 15:03:49.968 -0500 org.bonitasoft.engine.execution.work.RestartFlowNodesHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Found 0 flow nodes to restart on tenant 1
+2018-12-14 15:03:49.990 -0500 org.bonitasoft.engine.execution.work.RestartProcessHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Found 0 process to restart on tenant 1
+2018-12-14 15:03:49.992 -0500 org.bonitasoft.engine.execution.work.BPMEventWorksHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Reinitializing message instances in non-stable state to make them reworked by BPMEventHandlingJob
+2018-12-14 15:03:50.003 -0500 org.bonitasoft.engine.execution.work.BPMEventWorksHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | 0 message instances found and reset.
+2018-12-14 15:03:50.004 -0500 org.bonitasoft.engine.execution.work.BPMEventWorksHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Reinitializing waiting message events in non-stable state to make them reworked by BPMEventHandlingJob
+2018-12-14 15:03:50.008 -0500 org.bonitasoft.engine.execution.work.BPMEventWorksHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | 0 waiting message events found and reset.
+2018-12-14 15:03:50.046 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.command.api.impl.CommandServiceImpl on tenant with ID 1
+2018-12-14 15:03:50.122 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.connector.impl.ConnectorExecutorImpl on tenant with ID 1
+2018-12-14 15:03:50.124 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.work.ExecutorWorkService on tenant with ID 1
+2018-12-14 15:03:50.127 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.tracking.TimeTracker on tenant with ID 1
+2018-12-14 15:03:50.128 -0500 org.bonitasoft.engine.tracking.TimeTracker org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Starting TimeTracker...
+2018-12-14 15:03:50.128 -0500 org.bonitasoft.engine.tracking.TimeTracker org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | TimeTracker started.
+2018-12-14 15:03:50.129 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.theme.impl.ThemeServiceImpl on tenant with ID 1
+2018-12-14 15:03:50.306 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.service.impl.PermissionServiceImpl on tenant with ID 1
+2018-12-14 15:03:50.325 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.page.impl.PageServiceImpl on tenant with ID 1
+2018-12-14 15:03:52.401 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.cache.ehcache.EhCacheCacheService on tenant with ID 1
+2018-12-14 15:03:52.402 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.business.data.impl.JPABusinessDataRepositoryImpl on tenant with ID 1
+2018-12-14 15:03:52.524 -0500 org.bonitasoft.engine.scheduler.impl.BonitaSchedulerFactory org.quartz.impl.StdSchedulerFactory instantiate 
+INFO: Using default implementation for ThreadExecutor
+2018-12-14 15:03:52.563 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport initialize 
+INFO: Using db table-based data access locking (synchronization).
+2018-12-14 15:03:52.571 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreCMT initialize 
+INFO: JobStoreCMT initialized.
+2018-12-14 15:03:52.572 -0500 org.bonitasoft.engine.scheduler.impl.BonitaSchedulerFactory org.quartz.impl.StdSchedulerFactory instantiate 
+INFO: Quartz scheduler 'QuartzScheduler' initialized from an externally provided properties instance.
+2018-12-14 15:03:52.572 -0500 org.bonitasoft.engine.scheduler.impl.BonitaSchedulerFactory org.quartz.impl.StdSchedulerFactory instantiate 
+INFO: Quartz scheduler version: 2.2.1
+2018-12-14 15:03:52.583 -0500 org.bonitasoft.engine.scheduler.impl.SchedulerServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Start scheduler
+2018-12-14 15:03:52.598 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Freed 0 triggers from 'acquired' / 'blocked' state.
+2018-12-14 15:03:52.601 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverMisfiredJobs 
+INFO: Handling 1 trigger(s) that missed their scheduled fire-time.
+2018-12-14 15:03:52.632 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2018-12-14 15:03:52.633 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Recovery complete.
+2018-12-14 15:03:52.633 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Removed 0 'complete' triggers.
+2018-12-14 15:03:52.634 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Removed 0 stale fired job entries.
+2018-12-14 15:03:52.642 -0500 org.bonitasoft.engine.handler.SchedulerServiceRestartHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Rescheduling all scheduler Triggers in ERROR state
+2018-12-14 15:03:52.651 -0500 org.bonitasoft.engine.api.impl.StarterThread org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Restarting elements in the Thread 45
+2018-12-14 15:03:52.656 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer startPlatform 
+INFO: Platform started successfully
+2018-12-14 15:03:52.656 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Initialization of Bonita Engine done! ( took 28507ms)
+2018-12-14 15:03:52.652 -0500 org.bonitasoft.engine.api.impl.StarterThread org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=45 | HOSTNAME=LAPTOP-3CL7RSNF | Restarting elements for tenant 1
+2018-12-14 15:03:52.658 -0500 org.bonitasoft.engine.execution.work.RestartFlowNodesHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=45 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Restarting 0 flow nodes for tenant 1
+2018-12-14 15:03:52.673 -0500 org.bonitasoft.engine.execution.work.RestartProcessHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=45 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Restarting 0 processes for tenant 1
+2018-12-14 15:03:52.692 -0500 org.bonitasoft.engine.profile.DefaultProfilesUpdater org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=45 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Default profiles are up to date
+2018-12-14 15:03:54.964 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 
+2018-12-14 15:03:54.964 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: d8888b.  .d88b.  d8b   db d888888b d888888b  .d8b.    .d8888.  .d88b.  d88888b d888888b
+2018-12-14 15:03:54.964 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 88  `8D .8P  Y8. 888o  88   `88'   `~~88~~' d8' `8b   88'  YP .8P  Y8. 88'     `~~88~~'
+2018-12-14 15:03:54.964 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 88oooY' 88    88 88V8o 88    88       88    88ooo88   `8bo.   88    88 88ooo      88  
+2018-12-14 15:03:54.964 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 88~~~b. 88    88 88 V8o88    88       88    88~~~88     `Y8b. 88    88 88~~~      88  
+2018-12-14 15:03:54.965 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 88   8D `8b  d8' 88  V888   .88.      88    88   88   db   8D `8b  d8' 88         88   
+2018-12-14 15:03:54.965 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: Y8888P'  `Y88P'  VP   V8P Y888888P    YP    YP   YP   `8888Y'  `Y88P'  YP         YP   
+2018-12-14 15:03:54.967 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: ====================================================================================================
+2018-12-14 15:03:54.967 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: UI-DESIGNER : Community edition v.1.2.19
+2018-12-14 15:03:54.967 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: ====================================================================================================
+2018-12-14 15:03:55.428 -0500 org.bonitasoft.web.designer.config.DesignerConfigConditional org.bonitasoft.web.designer.config.DesignerConfigConditional matches 
+INFO: Conf loaded :  Community edition
+2018-12-14 15:03:55.552 -0500 org.bonitasoft.web.designer.config.DesignerConfigConditional org.bonitasoft.web.designer.config.DesignerConfigConditional matches 
+INFO: Conf loaded :  Community edition
+2018-12-14 15:03:55.591 -0500 org.bonitasoft.web.designer.config.DesignerConfigConditional org.bonitasoft.web.designer.config.DesignerConfigConditional matches 
+INFO: Conf loaded :  Community edition
+2018-12-14 15:03:59.969 -0500 org.bonitasoft.web.designer.config.WebMvcConfiguration org.bonitasoft.web.designer.config.WebMvcConfiguration addViewControllers 
+INFO: Adding welcome page: file:/C:/Users/michael.quach/Documents/WorkSpace/tomcat/webapps/designer/WEB-INF/classes/static/index.html
+2018-12-14 15:04:00.680 -0500 org.bonitasoft.console.server.listener.StudioWatchdogListener org.bonitasoft.console.server.listener.StudioWatchdogListener$1 run 
+WARNING: Bonita Studio watchdog process has started on port 6969 with a delay set to 20000 ms
+2018-12-14 16:36:20.506 -0500 org.bonitasoft.tomcat.H2Listener org.bonitasoft.tomcat.H2Listener lifecycleEvent 
+INFO: Starting H2 server : [-tcp, -tcpPort, 19091, -baseDir, C:\Users\michael.quach\Documents\WorkSpace\default\bonita_home/engine-server/work/platform]
+2018-12-14 16:37:00.696 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Initializing Bonita Engine...
+2018-12-14 16:37:00.696 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Initializing Spring context...
+2018-12-14 16:37:00.875 -0500 org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext org.springframework.context.support.AbstractApplicationContext prepareRefresh 
+INFO: Refreshing org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@76d78fdb: startup date [Fri Dec 14 16:37:00 EST 2018]; root of context hierarchy
+2018-12-14 16:37:01.408 -0500 org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext org.springframework.context.support.AbstractApplicationContext prepareRefresh 
+INFO: Refreshing org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@78a3bca2: startup date [Fri Dec 14 16:37:01 EST 2018]; parent: org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@76d78fdb
+2018-12-14 16:37:13.290 -0500 org.hibernate.type.TypeFactory org.hibernate.type.TypeFactory$TypeScopeImpl injectSessionFactory 
+WARN: HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6591f0a9 after already scoped org.hibernate.internal.SessionFactoryImpl@651ba8a8
+2018-12-14 16:37:16.800 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Initializing platform...
+2018-12-14 16:37:16.800 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initPlatform 
+INFO: Creating platform...
+2018-12-14 16:37:17.066 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Platform initialized successfully.
+2018-12-14 16:37:17.066 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer startPlatform 
+INFO: Starting platform...
+2018-12-14 16:37:17.111 -0500 org.bonitasoft.engine.api.impl.PlatformAPIImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Start service of platform : org.bonitasoft.engine.classloader.ClassLoaderServiceImpl
+2018-12-14 16:37:17.111 -0500 org.bonitasoft.engine.api.impl.PlatformAPIImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Start service of platform : org.bonitasoft.engine.cache.ehcache.PlatformEhCacheCacheService
+2018-12-14 16:37:17.219 -0500 org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext org.springframework.context.support.AbstractApplicationContext prepareRefresh 
+INFO: Refreshing org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@1fa64088: startup date [Fri Dec 14 16:37:17 EST 2018]; parent: org.bonitasoft.engine.service.impl.AbsoluteFileSystemXmlApplicationContext@78a3bca2
+2018-12-14 16:37:18.260 -0500 org.bonitasoft.engine.tracking.TimeTracker org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | -----
+Time Tracker 'org.bonitasoft.engine.tracking.TimeTracker':
+  - trackingEnabled: false
+  - flushIntervalInSeconds: 30000
+  - activatedRecords: EXECUTE_CONNECTOR_DISCONNECT EXECUTE_CONNECTOR_WORK EVALUATE_EXPRESSIONS EVALUATE_EXPRESSION_INCLUDING_CONTEXT EXECUTE_CONNECTOR_OUTPUT_OPERATIONS EVALUATE_EXPRESSION EXECUTE_CONNECTOR_CALLABLE EXECUTE_CONNECTOR_INPUT_EXPRESSIONS EXECUTE_CONNECTOR_INCLUDING_POOL_SUBMIT 
+  - flushEventListeners: org.bonitasoft.engine.tracking.memory.MemoryFlushEventListener: 
+active: false
+No DayRecord registered in memory. org.bonitasoft.engine.tracking.csv.CSVFlushEventListener: 
+active: true
+outputFolder: C:\Users\MICHAE~1.QUA\AppData\Local\Temp\
+ 
+  - records.size: 0
+  - last flush occurrence: Wed Dec 31 19:00:00 EST 1969
+
+-----
+2018-12-14 16:37:18.962 -0500 org.bonitasoft.engine.execution.work.RestartFlowNodesHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Restarting flow nodes...
+2018-12-14 16:37:18.984 -0500 org.bonitasoft.engine.execution.work.RestartFlowNodesHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Found 0 flow nodes to restart on tenant 1
+2018-12-14 16:37:18.998 -0500 org.bonitasoft.engine.execution.work.RestartProcessHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Found 0 process to restart on tenant 1
+2018-12-14 16:37:19.001 -0500 org.bonitasoft.engine.execution.work.BPMEventWorksHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Reinitializing message instances in non-stable state to make them reworked by BPMEventHandlingJob
+2018-12-14 16:37:19.010 -0500 org.bonitasoft.engine.execution.work.BPMEventWorksHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | 0 message instances found and reset.
+2018-12-14 16:37:19.010 -0500 org.bonitasoft.engine.execution.work.BPMEventWorksHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Reinitializing waiting message events in non-stable state to make them reworked by BPMEventHandlingJob
+2018-12-14 16:37:19.010 -0500 org.bonitasoft.engine.execution.work.BPMEventWorksHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | 0 waiting message events found and reset.
+2018-12-14 16:37:19.040 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.command.api.impl.CommandServiceImpl on tenant with ID 1
+2018-12-14 16:37:19.090 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.connector.impl.ConnectorExecutorImpl on tenant with ID 1
+2018-12-14 16:37:19.090 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.work.ExecutorWorkService on tenant with ID 1
+2018-12-14 16:37:19.098 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.tracking.TimeTracker on tenant with ID 1
+2018-12-14 16:37:19.100 -0500 org.bonitasoft.engine.tracking.TimeTracker org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Starting TimeTracker...
+2018-12-14 16:37:19.100 -0500 org.bonitasoft.engine.tracking.TimeTracker org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | TimeTracker started.
+2018-12-14 16:37:19.100 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.theme.impl.ThemeServiceImpl on tenant with ID 1
+2018-12-14 16:37:19.373 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.service.impl.PermissionServiceImpl on tenant with ID 1
+2018-12-14 16:37:19.383 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.page.impl.PageServiceImpl on tenant with ID 1
+2018-12-14 16:37:21.559 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.cache.ehcache.EhCacheCacheService on tenant with ID 1
+2018-12-14 16:37:21.560 -0500 org.bonitasoft.engine.api.impl.transaction.SetServiceState org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | start tenant-level service org.bonitasoft.engine.business.data.impl.JPABusinessDataRepositoryImpl on tenant with ID 1
+2018-12-14 16:37:21.678 -0500 org.bonitasoft.engine.scheduler.impl.BonitaSchedulerFactory org.quartz.impl.StdSchedulerFactory instantiate 
+INFO: Using default implementation for ThreadExecutor
+2018-12-14 16:37:21.726 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport initialize 
+INFO: Using db table-based data access locking (synchronization).
+2018-12-14 16:37:21.730 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreCMT initialize 
+INFO: JobStoreCMT initialized.
+2018-12-14 16:37:21.733 -0500 org.bonitasoft.engine.scheduler.impl.BonitaSchedulerFactory org.quartz.impl.StdSchedulerFactory instantiate 
+INFO: Quartz scheduler 'QuartzScheduler' initialized from an externally provided properties instance.
+2018-12-14 16:37:21.734 -0500 org.bonitasoft.engine.scheduler.impl.BonitaSchedulerFactory org.quartz.impl.StdSchedulerFactory instantiate 
+INFO: Quartz scheduler version: 2.2.1
+2018-12-14 16:37:21.736 -0500 org.bonitasoft.engine.scheduler.impl.SchedulerServiceImpl org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Start scheduler
+2018-12-14 16:37:21.752 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Freed 1 triggers from 'acquired' / 'blocked' state.
+2018-12-14 16:37:21.767 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverMisfiredJobs 
+INFO: Handling 2 trigger(s) that missed their scheduled fire-time.
+2018-12-14 16:37:21.814 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2018-12-14 16:37:21.814 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Recovery complete.
+2018-12-14 16:37:21.814 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Removed 0 'complete' triggers.
+2018-12-14 16:37:21.814 -0500 org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT org.quartz.impl.jdbcjobstore.JobStoreSupport recoverJobs 
+INFO: Removed 1 stale fired job entries.
+2018-12-14 16:37:21.830 -0500 org.bonitasoft.engine.handler.SchedulerServiceRestartHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Rescheduling all scheduler Triggers in ERROR state
+2018-12-14 16:37:21.846 -0500 org.bonitasoft.engine.api.impl.StarterThread org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=26 | HOSTNAME=LAPTOP-3CL7RSNF | Restarting elements in the Thread 45
+2018-12-14 16:37:21.851 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer startPlatform 
+INFO: Platform started successfully
+2018-12-14 16:37:21.851 -0500 org.bonitasoft.engine.EngineInitializer org.bonitasoft.engine.EngineInitializer initializeEngine 
+INFO: Initialization of Bonita Engine done! ( took 21155ms)
+2018-12-14 16:37:21.858 -0500 org.bonitasoft.engine.api.impl.StarterThread org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=45 | HOSTNAME=LAPTOP-3CL7RSNF | Restarting elements for tenant 1
+2018-12-14 16:37:21.859 -0500 org.bonitasoft.engine.execution.work.RestartFlowNodesHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=45 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Restarting 0 flow nodes for tenant 1
+2018-12-14 16:37:21.877 -0500 org.bonitasoft.engine.execution.work.RestartProcessHandler org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=45 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Restarting 0 processes for tenant 1
+2018-12-14 16:37:21.903 -0500 org.bonitasoft.engine.profile.DefaultProfilesUpdater org.bonitasoft.engine.log.technical.TechnicalLoggerSLF4JImpl log 
+INFO: THREAD_ID=45 | HOSTNAME=LAPTOP-3CL7RSNF | TENANT_ID=1 | Default profiles are up to date
+2018-12-14 16:37:30.945 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 
+2018-12-14 16:37:30.945 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: d8888b.  .d88b.  d8b   db d888888b d888888b  .d8b.    .d8888.  .d88b.  d88888b d888888b
+2018-12-14 16:37:30.945 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 88  `8D .8P  Y8. 888o  88   `88'   `~~88~~' d8' `8b   88'  YP .8P  Y8. 88'     `~~88~~'
+2018-12-14 16:37:30.945 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 88oooY' 88    88 88V8o 88    88       88    88ooo88   `8bo.   88    88 88ooo      88  
+2018-12-14 16:37:30.945 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 88~~~b. 88    88 88 V8o88    88       88    88~~~88     `Y8b. 88    88 88~~~      88  
+2018-12-14 16:37:30.945 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: 88   8D `8b  d8' 88  V888   .88.      88    88   88   db   8D `8b  d8' 88         88   
+2018-12-14 16:37:30.945 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: Y8888P'  `Y88P'  VP   V8P Y888888P    YP    YP   YP   `8888Y'  `Y88P'  YP         YP   
+2018-12-14 16:37:30.948 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: ====================================================================================================
+2018-12-14 16:37:30.948 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: UI-DESIGNER : Community edition v.1.2.19
+2018-12-14 16:37:30.949 -0500 org.bonitasoft.web.designer.SpringWebApplicationInitializer org.bonitasoft.web.designer.SpringWebApplicationInitializer onStartup 
+INFO: ====================================================================================================
+2018-12-14 16:37:31.354 -0500 org.bonitasoft.web.designer.config.DesignerConfigConditional org.bonitasoft.web.designer.config.DesignerConfigConditional matches 
+INFO: Conf loaded :  Community edition
+2018-12-14 16:37:31.498 -0500 org.bonitasoft.web.designer.config.DesignerConfigConditional org.bonitasoft.web.designer.config.DesignerConfigConditional matches 
+INFO: Conf loaded :  Community edition
+2018-12-14 16:37:31.546 -0500 org.bonitasoft.web.designer.config.DesignerConfigConditional org.bonitasoft.web.designer.config.DesignerConfigConditional matches 
+INFO: Conf loaded :  Community edition
+2018-12-14 16:37:37.908 -0500 org.bonitasoft.web.designer.config.WebMvcConfiguration org.bonitasoft.web.designer.config.WebMvcConfiguration addViewControllers 
+INFO: Adding welcome page: file:/C:/Users/michael.quach/Documents/WorkSpace/tomcat/webapps/designer/WEB-INF/classes/static/index.html
+2018-12-14 16:37:39.450 -0500 org.bonitasoft.console.server.listener.StudioWatchdogListener org.bonitasoft.console.server.listener.StudioWatchdogListener$1 run 
+WARNING: Bonita Studio watchdog process has started on port 6969 with a delay set to 20000 ms
