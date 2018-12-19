@@ -37,19 +37,19 @@
         "show" : true,
         "field" : "CHECK",
         "name" : "ON_STATCATCHER_FLAG",
-        "value" : "false",
+        "value" : "true",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "CHECK",
         "name" : "ON_LOGCATCHER_FLAG",
-        "value" : "false",
+        "value" : "true",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "CHECK",
         "name" : "ON_METERCATCHER_FLAG",
-        "value" : "false",
+        "value" : "true",
         "contextMode" : false
       }, {
         "show" : true,
@@ -97,7 +97,7 @@
         "show" : true,
         "field" : "CHECK",
         "name" : "ON_DATABASE_FLAG",
-        "value" : "false",
+        "value" : "true",
         "contextMode" : false
       }, {
         "show" : true,
@@ -109,19 +109,19 @@
         "show" : true,
         "field" : "CLOSED_LIST",
         "name" : "DB_TYPE",
-        "value" : "tJDBCOutput",
+        "value" : "tMSSqlOutput",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "CLOSED_LIST",
         "name" : "DB_VERSION",
-        "value" : "ORACLE_12",
+        "value" : "JTDS",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TEXT",
         "name" : "URL",
-        "value" : "\"\"",
+        "value" : "",
         "contextMode" : false
       }, {
         "show" : true,
@@ -132,55 +132,55 @@
         "show" : true,
         "field" : "TEXT",
         "name" : "DRIVER_CLASS",
-        "value" : "\"\"",
+        "value" : "",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TEXT",
         "name" : "HOST",
-        "value" : "\"\"",
+        "value" : "context.Talend_Server",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TEXT",
         "name" : "PORT",
-        "value" : "\"\"",
+        "value" : "context.Talend_Port",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TEXT",
         "name" : "DBNAME",
-        "value" : "\"\"",
+        "value" : "context.Talend_Database",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TEXT",
         "name" : "LOCAL_SERVICE_NAME",
-        "value" : "\"\"",
+        "value" : "context.Talend_Database",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TEXT",
         "name" : "PROPERTIES",
-        "value" : "\"\"",
+        "value" : "context.Talend_AdditionalParams",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TEXT",
         "name" : "SCHEMA_DB",
-        "value" : "\"\"",
+        "value" : "context.Talend_Schema",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TEXT",
         "name" : "USER",
-        "value" : "\"\"",
+        "value" : "context.Talend_Login",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "PASSWORD",
         "name" : "PASS",
-        "value" : "0RMsyjmybrE=",
+        "value" : "8pW6Nmy2kue65wOtb1ZswvPJVm7Qrrwf",
         "contextMode" : false
       }, {
         "show" : true,
@@ -192,19 +192,19 @@
         "show" : true,
         "field" : "DBTABLE",
         "name" : "TABLE_STATS",
-        "value" : "\"\"",
+        "value" : "\"Stats\"",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "DBTABLE",
         "name" : "TABLE_LOGS",
-        "value" : "\"\"",
+        "value" : "\"Logs\"",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "DBTABLE",
         "name" : "TABLE_METER",
-        "value" : "\"\"",
+        "value" : "\"FlowMeter\"",
         "contextMode" : false
       }, {
         "show" : true,
@@ -228,7 +228,7 @@
         "show" : true,
         "field" : "CHECK",
         "name" : "CATCH_REALTIME_STATS",
-        "value" : "false",
+        "value" : "true",
         "contextMode" : false
       }, {
         "show" : true,
@@ -240,13 +240,13 @@
         "show" : true,
         "field" : "TECHNICAL",
         "name" : "PROPERTY_TYPE:PROPERTY_TYPE",
-        "value" : "BUILT_IN",
+        "value" : "REPOSITORY",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TECHNICAL",
         "name" : "PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE",
-        "value" : "",
+        "value" : "_SHXN0APYEemH8Kt2Q5E_xA",
         "contextMode" : false
       } ]
     }

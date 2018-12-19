@@ -1,15 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="NumRows" prompt="NumRows?" promptNeeded="false" type="id_Integer" value="100"/>
+    <contextParameter comment="" name="Talend_Server" prompt="Talend_Server?" promptNeeded="false" repositoryContextId="_YMIzsAPYEemH8Kt2Q5E_xA" type="id_String" value="LAPTOP-3CL7RSNF"/>
+    <contextParameter comment="" name="Talend_Port" prompt="Talend_Port?" promptNeeded="false" repositoryContextId="_YMIzsAPYEemH8Kt2Q5E_xA" type="id_String" value="1433"/>
+    <contextParameter comment="" name="Talend_Schema" prompt="Talend_Schema?" promptNeeded="false" repositoryContextId="_YMIzsAPYEemH8Kt2Q5E_xA" type="id_String" value=""/>
+    <contextParameter comment="" name="Talend_Login" prompt="Talend_Login?" promptNeeded="false" repositoryContextId="_YMIzsAPYEemH8Kt2Q5E_xA" type="id_String" value=""/>
+    <contextParameter comment="" name="Talend_Database" prompt="Talend_Database?" promptNeeded="false" repositoryContextId="_YMIzsAPYEemH8Kt2Q5E_xA" type="id_String" value="Talend"/>
+    <contextParameter comment="" name="Talend_AdditionalParams" prompt="Talend_AdditionalParams?" promptNeeded="false" repositoryContextId="_YMIzsAPYEemH8Kt2Q5E_xA" type="id_String" value="internet_security=true"/>
+    <contextParameter comment="" name="Talend_Password" prompt="Talend_Password?" promptNeeded="false" repositoryContextId="_YMIzsAPYEemH8Kt2Q5E_xA" type="id_Password" value=""/>
   </context>
   <context confirmationNeeded="false" name="Large">
     <contextParameter comment="" name="NumRows" prompt="NumRows?" promptNeeded="false" type="id_Integer" value="10000000"/>
+    <contextParameter comment="" name="Talend_Server" prompt="Talend_Server?" promptNeeded="false" repositoryContextId="_YMIzsAPYEemH8Kt2Q5E_xA" type="id_String" value="LAPTOP-3CL7RSNF"/>
+    <contextParameter comment="" name="Talend_Port" prompt="Talend_Port?" promptNeeded="false" repositoryContextId="_YMIzsAPYEemH8Kt2Q5E_xA" type="id_String" value="1433"/>
+    <contextParameter comment="" name="Talend_Schema" prompt="Talend_Schema?" promptNeeded="false" repositoryContextId="_YMIzsAPYEemH8Kt2Q5E_xA" type="id_String" value=""/>
+    <contextParameter comment="" name="Talend_Login" prompt="Talend_Login?" promptNeeded="false" repositoryContextId="_YMIzsAPYEemH8Kt2Q5E_xA" type="id_String" value=""/>
+    <contextParameter comment="" name="Talend_Database" prompt="Talend_Database?" promptNeeded="false" repositoryContextId="_YMIzsAPYEemH8Kt2Q5E_xA" type="id_String" value="Talend"/>
+    <contextParameter comment="" name="Talend_AdditionalParams" prompt="Talend_AdditionalParams?" promptNeeded="false" repositoryContextId="_YMIzsAPYEemH8Kt2Q5E_xA" type="id_String" value="internet_security=true"/>
+    <contextParameter comment="" name="Talend_Password" prompt="Talend_Password?" promptNeeded="false" repositoryContextId="_YMIzsAPYEemH8Kt2Q5E_xA" type="id_Password" value=""/>
   </context>
   <context confirmationNeeded="false" name="Medium">
     <contextParameter comment="" name="NumRows" prompt="NumRows?" promptNeeded="false" type="id_Integer" value="1000000"/>
+    <contextParameter comment="" name="Talend_Server" prompt="Talend_Server?" promptNeeded="false" repositoryContextId="_YMIzsAPYEemH8Kt2Q5E_xA" type="id_String" value="LAPTOP-3CL7RSNF"/>
+    <contextParameter comment="" name="Talend_Port" prompt="Talend_Port?" promptNeeded="false" repositoryContextId="_YMIzsAPYEemH8Kt2Q5E_xA" type="id_String" value="1433"/>
+    <contextParameter comment="" name="Talend_Schema" prompt="Talend_Schema?" promptNeeded="false" repositoryContextId="_YMIzsAPYEemH8Kt2Q5E_xA" type="id_String" value=""/>
+    <contextParameter comment="" name="Talend_Login" prompt="Talend_Login?" promptNeeded="false" repositoryContextId="_YMIzsAPYEemH8Kt2Q5E_xA" type="id_String" value=""/>
+    <contextParameter comment="" name="Talend_Database" prompt="Talend_Database?" promptNeeded="false" repositoryContextId="_YMIzsAPYEemH8Kt2Q5E_xA" type="id_String" value="Talend"/>
+    <contextParameter comment="" name="Talend_AdditionalParams" prompt="Talend_AdditionalParams?" promptNeeded="false" repositoryContextId="_YMIzsAPYEemH8Kt2Q5E_xA" type="id_String" value="internet_security=true"/>
+    <contextParameter comment="" name="Talend_Password" prompt="Talend_Password?" promptNeeded="false" repositoryContextId="_YMIzsAPYEemH8Kt2Q5E_xA" type="id_Password" value=""/>
   </context>
   <context confirmationNeeded="false" name="Small">
     <contextParameter comment="" name="NumRows" prompt="NumRows?" promptNeeded="false" type="id_Integer" value="1000"/>
+    <contextParameter comment="" name="Talend_Server" prompt="Talend_Server?" promptNeeded="false" repositoryContextId="_YMIzsAPYEemH8Kt2Q5E_xA" type="id_String" value="LAPTOP-3CL7RSNF"/>
+    <contextParameter comment="" name="Talend_Port" prompt="Talend_Port?" promptNeeded="false" repositoryContextId="_YMIzsAPYEemH8Kt2Q5E_xA" type="id_String" value="1433"/>
+    <contextParameter comment="" name="Talend_Schema" prompt="Talend_Schema?" promptNeeded="false" repositoryContextId="_YMIzsAPYEemH8Kt2Q5E_xA" type="id_String" value=""/>
+    <contextParameter comment="" name="Talend_Login" prompt="Talend_Login?" promptNeeded="false" repositoryContextId="_YMIzsAPYEemH8Kt2Q5E_xA" type="id_String" value=""/>
+    <contextParameter comment="" name="Talend_Database" prompt="Talend_Database?" promptNeeded="false" repositoryContextId="_YMIzsAPYEemH8Kt2Q5E_xA" type="id_String" value="Talend"/>
+    <contextParameter comment="" name="Talend_AdditionalParams" prompt="Talend_AdditionalParams?" promptNeeded="false" repositoryContextId="_YMIzsAPYEemH8Kt2Q5E_xA" type="id_String" value="internet_security=true"/>
+    <contextParameter comment="" name="Talend_Password" prompt="Talend_Password?" promptNeeded="false" repositoryContextId="_YMIzsAPYEemH8Kt2Q5E_xA" type="id_Password" value=""/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" show="false" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms512M&quot;,&quot;-Xmx8192M&quot;]}"/>
@@ -69,7 +97,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="true"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/Student/workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/michael.quach/Documents/WorkSpace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -77,25 +105,25 @@
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="true"/>
     <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" show="false" value="_TuW-ME-ZEeiNaNBc_wu7Gw"/>
-    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tMysqlOutput"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_5"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" show="false" value="_SHXN0APYEemH8Kt2Q5E_xA"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tMSSqlOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="JTDS"/>
     <elementParameter field="TEXT" name="URL" show="false" value=""/>
     <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
     <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value=""/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="context.Talend_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.Talend_Port"/>
     <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;amc&quot;"/>
-    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;amc&quot;"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="r0M4Avw8nA8="/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.Talend_Database"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.Talend_Database"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.Talend_AdditionalParams"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="context.Talend_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.Talend_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kue65wOtb1ZswvPJVm7Qrrwf"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;statcatcher&quot;"/>
-    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;logcatcher&quot;"/>
-    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;flowmetercatcher&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;Stats&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;Logs&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;FlowMeter&quot;"/>
     <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true"/>
     <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true"/>
     <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true"/>
@@ -110,6 +138,9 @@
     <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
     <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <elementParameter field="CHECK" name="UPDATE_COMPONENTS" value="false"/>
+    <elementParameter field="CHECK" name="STATS_DEFAULT_PROJECTSETTING" value="true"/>
+    <elementParameter field="PROPERTY_TYPE" name="PROPERTY_TYPE" value=""/>
     <routinesParameter id="_N7g_ME-AEeiNaNBc_wu7Gw" name="DQTechnical"/>
     <routinesParameter id="_N1HcQE-AEeiNaNBc_wu7Gw" name="DataMasking"/>
     <routinesParameter id="_M7JHUk-AEeiNaNBc_wu7Gw" name="DataOperation"/>
@@ -402,13 +433,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f5eb7e56-9057-460f-a3db-495b7d66f44d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>x2fQMERUTH/k5fJx6oW+PSqXnmmjaUcaFfMJe6sh8na4KAfXFsleIrsE0wEhX2aSL7UGFP+NgTlz
-syXJ5i/JrQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_011a606c-59ec-4ea4-9b43-1b98b76b2112"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>wza6rt+dkc7CLJInfGBQH7T2YCJcBavkKex02LPtaCfRjuTq+1neHn3s0AhUcep4wJ625NqeACJt
-1KczzMo1SA==</DigestValue></Reference></SignedInfo><SignatureValue>qgSFYY7ON+8aEZado6VlOzRxN6JTUwKIEmiYXLXKCLGj+wmdFoW2yQDly3tXaDOJ88SlefyT16/K
-6jUbQl//TjxKtL2q5laRilPa2u51UsMIvNAcfcCNjGF1iBlbfTl+llhHhl/ZoWLz1pKaNr/+Ujhj
-jKTwmB/wxC1YkDKi6997y05+xoGCL8jTRaA04/WIev7OJHBcWyEPK/WhPe0BAEb3UbN7CgOdf7i3
-OKF4DDmZNnIRnPiwmdOxToiJRjfAdpKEGu8K5xKAe31ULLHcmV+3tQPvlSf6BLvh8tMQAsEnr17C
-BalP4d/SajE1mTS4T4NCOqKcBNKZ5+o0smVnWA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c48ef2d5-3e6e-439e-bda5-7667846e1e85"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>TC95s8Y11BpVRh2V8MULX9VLuvoj3Be6Xu3isjfgDuFOV6fUYCEFbdG9dmJqCK9uCY6OxYCKjfIg
+kYQM1aFNSA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b939edb5-c31c-43d7-8184-f8425b63be54"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>YOHmvxMbl4UrThlMsm3o7btLlRTmOmjX44nm2gfkTOaFt+jyIPBcvBSXDnpOtUq7ft9gWPL2W0e3
+hnA6pdq2hg==</DigestValue></Reference></SignedInfo><SignatureValue>A0WE/eJRWk4/RDs0oM1mQer4UaPhtGCiIinNj2KgP/B/leHoTB7cVsIj27vi4W0Oeilwe+Vdl5O6
+AefU4oY2cg3aJVue3S9jr4UmDsea9tYgoatdA2SW8+U48bP9nRn4tVNy6UwlT7f2h1EJPBS1H8x+
+FMUma9/XlbFkLFJycfWstEE0z2n3V8XXcWxJu8asbPpASeJ4GX8FerkBHz9Omr4TSP2rdjK5COmo
+sFPiO3HrdeRC9RflBz2OPTresJoH6Be4eClN+6/5899jHdZNF3acWTMZ9jQvCMdi/g8nIHdTT69l
+VD8hkJ3j2WEsCkBYUNGBFT+G5Wk2zDlvaZnSkg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
@@ -432,4 +463,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_011a606c-59ec-4ea4-9b43-1b98b76b2112" Target="#_f5eb7e56-9057-460f-a3db-495b7d66f44d"><Timestamp>2018-12-19 21:39:44</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b939edb5-c31c-43d7-8184-f8425b63be54" Target="#_c48ef2d5-3e6e-439e-bda5-7667846e1e85"><Timestamp>2018-12-19 21:53:42</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
