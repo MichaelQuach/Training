@@ -29,6 +29,8 @@
     <module>jobs/joblets/joblet_mapping_0.1</module>
     <module>jobs/process/dbwrite_0.1</module>
     <module>jobs/process/filetouch_0.1</module>
+    <module>jobs/process/setdbupdate_0.1</module>
+    <module>jobs/process/buildstattables_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TALEND_TAC</talend.project.name>

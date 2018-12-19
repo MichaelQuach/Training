@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DatabaseConnection AdditionalParams="context.SQL_CDC_AdditionalParams" ContextId="_ROAykALpEemMRv2hNdeD9w" ContextMode="true" DBRootPath="" DatabaseType="Microsoft SQL Server" DatasourceName="" DbmsId="id_MSSQL" DriverClass="net.sourceforge.jtds.jdbc.Driver" DriverJarPath="" FileFieldName="" NullChar="" Password="context.SQL_CDC_Password" Port="context.SQL_CDC_Port" ProductId="SQL_SERVER" SID="context.SQL_CDC_Database" SQLMode="false" ServerName="context.SQL_CDC_Server" SqlSynthax="" StandardSQL="true" StringQuote="" URL="jdbc:jtds:sqlserver://LAPTOP-3CL7RSNF:1433/CDC_Subscription;internet_security=true" UiSchema="context.SQL_CDC_Schema" Username="context.SQL_CDC_Login" contextName="Default" dataPackage="_RuEytgLpEemMRv2hNdeD9w" dbVersionString="JTDS" id="_KayyUALpEemMRv2hNdeD9w" label="SQL_CDC" name="SQL_CDC" xmi:id="_KcUcUALpEemMRv2hNdeD9w">
+    <taggedValue tag="Is Conn Need Reload" value="false" xmi:id="_gUuBwU-ZEeiNaNBc_wu7Gw"/>
+    <taggedValue tag="package filter" value="" xmi:id="_gZVcAE-ZEeiNaNBc_wu7Gw"/>
+    <taggedValue tag="Status" value="" xmi:id="_gZfNAE-ZEeiNaNBc_wu7Gw"/>
+    <taggedValue tag="Version" value="0.1" xmi:id="_gZfNAU-ZEeiNaNBc_wu7Gw"/>
+    <taggedValue tag="Purpose" value="" xmi:id="_gZfNAk-ZEeiNaNBc_wu7Gw"/>
+    <taggedValue tag="Description" value="" xmi:id="_gZfNA0-ZEeiNaNBc_wu7Gw"/>
+    <taggedValue tag="Author" value="" xmi:id="_gZfNBE-ZEeiNaNBc_wu7Gw"/>
+    <taggedValue tag="otherParameter" xmi:id="_gZfNBU-ZEeiNaNBc_wu7Gw"/>
+    <taggedValue tag="DB ProductName" value="Microsoft SQL Server" xmi:id="_gZfNBk-ZEeiNaNBc_wu7Gw"/>
+    <taggedValue tag="DB ProductVersion" value="13.00.1742" xmi:id="_gZfNB0-ZEeiNaNBc_wu7Gw"/>
+    <taggedValue tag="DB IdentifierQuoteString" value="&quot;" xmi:id="_gZfNCE-ZEeiNaNBc_wu7Gw"/>
+    <parameters key="CONN_PARA_KEY_USERNAME" value="context.SQL_CDC_Login" xmi:id="_Den6IALYEemMRv2hNdeD9w"/>
+    <parameters key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value="" xmi:id="_3P0lgALYEemMRv2hNdeD9w"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog dataManager="_KcUcUALpEemMRv2hNdeD9w" name="CDC_Subscription" xmi:id="_RuEytgLpEemMRv2hNdeD9w">
+    <ownedElement name="db_accessadmin" xmi:id="_RuEytwLpEemMRv2hNdeD9w" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_backupoperator" xmi:id="_RuEyuALpEemMRv2hNdeD9w" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_datareader" xmi:id="_RuEyuQLpEemMRv2hNdeD9w" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_datawriter" xmi:id="_RuEyugLpEemMRv2hNdeD9w" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_ddladmin" xmi:id="_RuEyuwLpEemMRv2hNdeD9w" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_denydatareader" xmi:id="_RuEyvALpEemMRv2hNdeD9w" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_denydatawriter" xmi:id="_RuEyvQLpEemMRv2hNdeD9w" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_owner" xmi:id="_RuEyvgLpEemMRv2hNdeD9w" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_securityadmin" xmi:id="_RuEyvwLpEemMRv2hNdeD9w" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="dbo" xmi:id="_RuEywALpEemMRv2hNdeD9w" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="guest" xmi:id="_RuEywQLpEemMRv2hNdeD9w" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="INFORMATION_SCHEMA" xmi:id="_RuEywgLpEemMRv2hNdeD9w" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sys" xmi:id="_RuEywwLpEemMRv2hNdeD9w" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+  </orgomg.cwm.resource.relational:Catalog>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_278bee8a-fe28-4e4a-8b5d-b5959c52fccb"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>qGyR8wBlE+abwbNczDA7uUlLfcBQDYcVB7QSUPiU0rx+Sj4oaDSRb8dOMRsygjtL13rzKMzYd4t+
+tgZZQ4z0hA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_7f031c1a-327a-4609-82da-d7918e3218ed"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Eu2FhiCUgSvzEwlDOs0pHR0TmU5dDjdfzLMrELxpWd9uzw1yz6av2BbcAd3mjgRvy1CaVXSaQ+mP
+vH0azw9IMA==</DigestValue></Reference></SignedInfo><SignatureValue>uPYNTMuBDrPxydlXufZl9cOquTWNI9FjnhIFoA9qlt438BMKmWtkQGprzKJoBQ8AOFAnAGz8DiIZ
+AvfmgI1WiWuuZuwVIFmRkoy5r+cFPXq6tdPfDZZiSyeGeH7ObXGjW8l0/w7V9lQxNYkgtHdHJxct
+sJ2574NM2KyJDQ37rt3vSPYuhzFD9wvXHfVE47LohUDwm3rDacHPLBKicn9SF3QCBX34fFxij/3C
+Qk/4sFXTKj1LMz4R3ybjBuVdQRPaM81hr3DKOoQILF3nWxcA3N0YYnCkAnduvhTqr6YyrbAfYQd/
+zjVWIP6UgwtMlqEZFOBFHA/wcpm3P0M9pBpgTQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_7f031c1a-327a-4609-82da-d7918e3218ed" Target="#_278bee8a-fe28-4e4a-8b5d-b5959c52fccb"><Timestamp>2018-12-19 21:41:55</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
