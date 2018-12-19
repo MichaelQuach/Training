@@ -10,13 +10,32 @@
   <url>http://www.talend.org/</url>
   <modules>
     <module>code/routines</module>
+    <module>jobs/process/loggeneration_0.1</module>
+    <module>jobs/process/referencejob_0.1</module>
+    <module>jobs/process/resetdatabasesforcdc_0.1</module>
+    <module>jobs/process/dbmods_0.1</module>
+    <module>jobs/process/bigfiles_0.1</module>
+    <module>jobs/joblets/joblet_inputfile_0.1</module>
+    <module>jobs/process/syncwarehouse_0.1</module>
+    <module>jobs/process/joindata_original_0.1</module>
+    <module>jobs/process/dbmods_cha_0.1</module>
+    <module>jobs/process/memoryrun_0.1</module>
+    <module>jobs/process/joindata_trigger_0.1</module>
+    <module>jobs/process/dbmods_id_0.1</module>
+    <module>jobs/process/autoparallel_0.1</module>
+    <module>jobs/process/jobpartitionar_0.1</module>
+    <module>jobs/joblets/joblet_trigger_0.1</module>
+    <module>jobs/process/joindata_0.1</module>
+    <module>jobs/joblets/joblet_mapping_0.1</module>
+    <module>jobs/process/dbwrite_0.1</module>
+    <module>jobs/process/filetouch_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TALEND_TAC</talend.project.name>
     <encoding>UTF-8</encoding>
     <talend.version>7.1.1</talend.version>
-    <maven.deploy.skip>true</maven.deploy.skip>
     <talend.docker.tag>${project.version}</talend.docker.tag>
+    <maven.deploy.skip>true</maven.deploy.skip>
     <talend.docker.name>${talend.project.name.lowercase}/${talend.job.folder}%a</talend.docker.name>
   </properties>
   <build>
