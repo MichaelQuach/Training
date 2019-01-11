@@ -44,13 +44,28 @@
   <dependencies>
     <dependency>
       <groupId>org.talend.libraries</groupId>
+      <artifactId>advancedPersistentLookupLib-1.2</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
       <artifactId>antlr-runtime-3.5.2</artifactId>
       <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-collections</groupId>
+      <artifactId>commons-collections</artifactId>
+      <version>3.2.2</version>
     </dependency>
     <dependency>
       <groupId>dom4j</groupId>
       <artifactId>dom4j</artifactId>
       <version>1.6.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>jboss-serialization</artifactId>
+      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
@@ -75,6 +90,11 @@
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>talendcsv</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>trove</artifactId>
       <version>6.0.0</version>
     </dependency>
     <dependency>
