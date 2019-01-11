@@ -53,6 +53,11 @@
       <version>1.6.1</version>
     </dependency>
     <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>jtds-1.3.1-patch</artifactId>
+      <version>6.1.1</version>
+    </dependency>
+    <dependency>
       <groupId>log4j</groupId>
       <artifactId>log4j</artifactId>
       <version>1.2.17</version>
@@ -71,6 +76,16 @@
       <groupId>org.example.talend_tac.code</groupId>
       <artifactId>routines</artifactId>
       <version>7.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.example.talend_tac.job</groupId>
+      <artifactId>LookupState</artifactId>
+      <version>0.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.example.talend_tac.job</groupId>
+      <artifactId>UpperCase</artifactId>
+      <version>0.1.0</version>
     </dependency>
   </dependencies>
   <build>
