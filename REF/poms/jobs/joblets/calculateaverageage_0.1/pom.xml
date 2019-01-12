@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.example.ref</groupId>
+    <artifactId>code.Master</artifactId>
+    <version>7.1.1</version>
+    <relativePath>../../../</relativePath>
+  </parent>
+  <groupId>org.example.ref.joblet</groupId>
+  <artifactId>CalculateAverageAge</artifactId>
+  <version>0.1.0</version>
+  <packaging>pom</packaging>
+  <name>REF CalculateAverageAge</name>
+  <properties>
+    <talend.joblet.id>_8T36sEn7Eei1X6hquU8N8g</talend.joblet.id>
+    <talend.joblet.version>0.1</talend.joblet.version>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.17</version>
+    </dependency>
+  </dependencies>
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <artifactId>maven-deploy-plugin</artifactId>
+          <configuration>
+            <skip>true</skip>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+</project>
