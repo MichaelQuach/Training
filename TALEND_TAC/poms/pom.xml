@@ -41,6 +41,7 @@
     <module>jobs/process/Customers/uppercase_0.2</module>
     <module>jobs/process/copy_of_resetdatabasesforcdc_0.1</module>
     <module>jobs/temp/resetdatabasesforcdc_0.1</module>
+    <module>../../REF/poms</module>
   </modules>
   <properties>
     <talend.project.name>TALEND_TAC</talend.project.name>
