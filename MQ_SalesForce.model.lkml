@@ -4,12 +4,12 @@ connection: "snowflake_salesforce"
 # include all the views
 include: "*.view"
 
-datagroup: snowflake_salesforce_hemanth_default_datagroup {
+datagroup: snowflake_salesforce_mq_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
   max_cache_age: "1 hour"
 }
 
-persist_with: snowflake_salesforce_hemanth_default_datagroup
+persist_with: snowflake_salesforce_mq_datagroup
 
 
 explore: lead {
