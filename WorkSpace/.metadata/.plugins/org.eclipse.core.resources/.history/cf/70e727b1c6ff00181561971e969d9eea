@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_3mxhEP9jEeiYwe3JzTVfnw" id="_3mmh8P9jEeiYwe3JzTVfnw" label="ReadDB" version="0.1" statusCode="" item="_3mxhEv9jEeiYwe3JzTVfnw" displayName="ReadDB">
+    <author href="../talend.project#_DY7dUP9gEeijNPvMZf-Oig"/>
+    <additionalProperties xmi:id="_3nX-AP9jEeiYwe3JzTVfnw" key="created_product_fullname" value="Talend Data Fabric"/>
+    <additionalProperties xmi:id="_3nX-Af9jEeiYwe3JzTVfnw" key="created_product_version" value="7.1.1.20181026_1147"/>
+    <additionalProperties xmi:id="_3nX-Av9jEeiYwe3JzTVfnw" key="created_date" value="2018-12-14T00:48:23.392-0500"/>
+    <additionalProperties xmi:id="_3nX-A_9jEeiYwe3JzTVfnw" key="modified_product_fullname" value="Talend Data Fabric"/>
+    <additionalProperties xmi:id="_3nX-BP9jEeiYwe3JzTVfnw" key="modified_product_version" value="7.1.1.20181026_1147"/>
+    <additionalProperties xmi:id="_3nX-Bf9jEeiYwe3JzTVfnw" key="modified_date" value="2018-12-14T12:29:10.067-0500"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_3mxhEf9jEeiYwe3JzTVfnw" path="" locked="true" lockDate="2018-12-14T12:28:07.927-0500">
+    <locker href="../talend.project#_Ot-PEP_FEei7mKVZ7Y-Jmw"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:ProcessItem xmi:id="_3mxhEv9jEeiYwe3JzTVfnw" property="_3mxhEP9jEeiYwe3JzTVfnw" state="_3mxhEf9jEeiYwe3JzTVfnw">
+    <process href="ReadDB_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

@@ -1,0 +1,14 @@
+ADDONS={"Talend MDM - Bonita BPM Integration (Required)"\:""}
+CLOSE_EDITORS_ON_EXIT=true
+DISABLE_OPEN_EDITOR_IN_PLACE=true
+LOGINCOUNT=7
+NOT_SHOW_ONBOARDING_AT_STARTUP=true
+PREFERENCE_TALEND_FORCE_SHOW_LOGON_DIALOG=true
+PREFERENCE_TALEND_LOGON_STARTUP_TIMES=10
+eclipse.preferences.version=1
+lastUSedProject=TRAINING
+last_started_project_type=MDM
+logonDialog.alwaysAskMeAtStartUp=true
+presentationFactoryId=org.talend.rcp.presentationfactory
+showIntro=false
+workspaceTasksDone=org.talend.core.InitConnectionsMigrationTask|org.talend.core.EmptyConnectionsMigrationTask|org.talend.designer.publish.di.migration.PublishEncrytPasswordMigrationTask|org.talend.migrationTool.InitWorkspaceMigrationTask|org.talend.designer.runprocess.remote.migration.JobServerPasswordPreferenceMigrationTask|org.talend.repository.model.migration.ChangeProjectTechinicalName|org.talend.designer.runprocess.migrationtask.changeClasspath|org.talend.designer.runprocess.maven.ChangeCodeProjectClasspathMigrationTask2|org.talend.amc.plugin.migration.UnifyPasswordEncryption4AmcConnectionMigrationTask|org.talend.repository.svnprovider.migration.ChangeProjectTechinicalName4Svn|org.talend.designer.core.ui.preferences.migration.AddQuotesForStatLogsPreference

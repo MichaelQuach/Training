@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_NvsgAP9kEeiYwe3JzTVfnw" id="_NvfrsP9kEeiYwe3JzTVfnw" label="AdventureWorks2016" version="0.1" statusCode="" item="_NvsgAv9kEeiYwe3JzTVfnw" displayName="AdventureWorks2016">
+    <author href="../talend.project#_DY7dUP9gEeijNPvMZf-Oig"/>
+    <additionalProperties xmi:id="_NwJL8P9kEeiYwe3JzTVfnw" key="created_product_fullname" value="Talend Data Fabric"/>
+    <additionalProperties xmi:id="_NwJL8f9kEeiYwe3JzTVfnw" key="created_product_version" value="7.1.1.20181026_1147"/>
+    <additionalProperties xmi:id="_NwJL8v9kEeiYwe3JzTVfnw" key="created_date" value="2018-12-14T00:50:51.951-0500"/>
+    <additionalProperties xmi:id="_NwJL8_9kEeiYwe3JzTVfnw" key="modified_product_fullname" value="Talend Data Fabric"/>
+    <additionalProperties xmi:id="_NwJL9P9kEeiYwe3JzTVfnw" key="modified_product_version" value="7.1.1.20181026_1147"/>
+    <additionalProperties xmi:id="_NwJL9f9kEeiYwe3JzTVfnw" key="modified_date" value="2018-12-14T14:27:37.982-0500"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_NvsgAf9kEeiYwe3JzTVfnw" path="" locked="true" lockDate="2018-12-14T14:27:37.981-0500">
+    <locker href="../talend.project#_Ot-PEP_FEei7mKVZ7Y-Jmw"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:ContextItem xmi:id="_NvsgAv9kEeiYwe3JzTVfnw" property="_NvsgAP9kEeiYwe3JzTVfnw" state="_NvsgAf9kEeiYwe3JzTVfnw" defaultContext="Default">
+    <context href="AdventureWorks2016_0.1.item#_Nvr48P9kEeiYwe3JzTVfnw"/>
+  </TalendProperties:ContextItem>
+</xmi:XMI>
