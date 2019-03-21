@@ -1,5 +1,5 @@
-- dashboard: salesforce_data_test
-  title: Salesforce Data LookML
+- dashboard: MQ_salesforce_data_test
+  title: MQ Salesforce Data LookML
   layout: newspaper
   elements:
   - title: Accounts Initiated per Leads
